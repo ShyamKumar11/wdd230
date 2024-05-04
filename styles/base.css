@@ -2,17 +2,21 @@
 
 :root {
     --background-color: #FDFFFC;
-    --header-coloer: #61988E;
+    --header-color: #61988E;
     --accent-color: #EF6351;
 }
 
 body{
     font-family: "Open Sans", sans-serif;
-    background-color: var(--background-color);  
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color); 
+  
 }
 
 nav{
     background-color: #61988E;
+    
 
 
 }
@@ -20,6 +24,7 @@ nav{
 #content{
     max-width: 800px;
     margin: 0 auto;
+    
 
 
 }
@@ -29,15 +34,22 @@ main{
     display: grid;
     grid-template-columns: 1fr;
     
+}
+    
 
 ul{
     list-style: none;
+
+
 }
 
 header{
     display: grid;
     grid-template-columns: 1fr 4fr;
     background-color: var(--background-color);
+    text-align: center;
+    padding: 20px 0 ;
+    
 }
 
 header img{
@@ -47,38 +59,67 @@ header img{
 }
 
 header h1{
-    text-align:center ;
-    margin-top: 40px;
+    text-align:right ;
+    margin-top: 10px;
+
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
 
 }
 
 
 #content nav ul{
-    background-color: var(--background-color);
+    background-color: var(--header-color);
     color: white;
+/* This is for the first strip, Home, site plan etc.) */
+    
+
+
+
 }
 
 nav ul li{
     text-align: center;
     margin: 20px;
+
+    
+   
+    
 }
 
 
 
 nav ul li a{
     color: black;
-    text-decoration: none;
+    text-decoration:none;
     padding: 10px;
+    
+}
+
+main {
+
+    padding: 20px;
+    
+
 }
     
 main h2{
     text-align: center;
+    background-color: #61988E;
+    color: white;
 }
 
 
 main h3{
     text-align: center;
-    background-color:#61988E
+    background-color:#61988E;
+    color: white;
 
 }
 
@@ -86,18 +127,19 @@ main ul li a{
     color: black;
     text-decoration: none;
     padding: 10px;
-
-
-
+   
 }
 
 footer{
     text-align: center;
-    background-color:#61988E
-
+    padding: 10px 0;
+    background-color: var(--header-color);
+    color: blue;
+    
 }
     
 .card h3{
     accent-color: var(--accent-color);
     text-align: center;
+    
 }
