@@ -28,7 +28,7 @@ nav{
 main{
     display: grid;
     grid-template-columns: 1fr;
-}
+    
 
 ul{
     list-style: none;
@@ -75,10 +75,18 @@ main h2{
     text-align: center;
 }
 
+
+main h3{
+    text-align: center;
+    background-color:#61988E
+
+}
+
 main ul li a{
     color: black;
     text-decoration: none;
     padding: 10px;
+
 
 
 }
