@@ -6,4 +6,4 @@ currentYearspan.innerHTML = `${year}`;
 //sets the last modified year
 // let lastModifiedParagraph = document.querySelector("#lastModified")
 let lastModifiedParagraph = document.getElementById("lastModified");
-lastModifiedParagraph.innerHTML = `last Modified: ${document.lastModified}`;
+lastModifiedParagraph.innerHTML = `Last Modified: ${document.lastModified}`;
