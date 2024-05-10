@@ -49,11 +49,36 @@ header h1 {
   margin-top: 10px;
 }
 
+#menu-button{
+    background-color: inherit;
+    font-size: 2rem;
+    padding: .5rem;
+
+}
+
+
+#menu-button::before{
+    content:"≡";
+    color: black;
+}
+
+#menu-button.open::before{
+    content: "❎";
+    color: black;
+}
+
 nav ul {
-  list-style-type: none;
-  padding: 0;
+  list-style: none;
+  padding-inline-start: 0px;
   margin: 0;
   text-align: center;
+  display: none;
+}
+
+nav ul.open{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 #content nav {
