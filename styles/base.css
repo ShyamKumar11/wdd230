@@ -31,13 +31,23 @@ ul {
   list-style: none;
 }
 
-header {
+/* header {
   display: grid;
   grid-template-columns: 1fr 4fr;
   background-color: var(--background-color);
   text-align: center;
   padding: 20px 0;
+} */
+
+header {
+
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content:space-around ;
+
 }
+
 
 header img {
   height: 150px;
@@ -63,7 +73,7 @@ header h1 {
 }
 
 #menu-button.open::before{
-    content: "❎";
+    content: "X";
     color: black;
 }
 
