@@ -81,7 +81,7 @@ nav ul {
   }
   
   nav ul li a {
-    color: #FDCA40;
+    color:#FDCA40;
     text-decoration: none;
     padding: 10px;
     font-weight: 700;
@@ -94,7 +94,7 @@ nav ul {
   
   main h2 {
     text-align: center;
-    background-color:#f6bc1d;
+    background-color: yellow ;
     color: black;
     border-radius: 15px;
     padding: 7.5px;
