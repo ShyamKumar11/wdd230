@@ -115,6 +115,21 @@ main {
   padding: 20px;
 }
 
+
+#learning-activites li a:link{
+  color: greenyellow;
+}
+
+
+#learning-activites li a:visited{
+  color:green;
+}
+
+#learning-activites li a:hover{
+  color: red; 
+
+}
+
 main h2 {
   text-align: center;
   background-color: #61988e;
