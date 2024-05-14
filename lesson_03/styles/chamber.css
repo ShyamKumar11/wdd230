@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+:root {
+    --background-color: #6B6570;
+    --header-color: #000500;
+    --accent-color: #FDCA40;
+  
+    
+  }
+  
+body{
+    font-family: "Roboto", "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--background-color);
+  }
+
+
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+ul {
+    list-style: none;
+}
+
+
+  
+  header h1 {
+    text-align: center;
+    margin-top: 10px;
+
+  }
+
+  #menu-button{
+    background-color: black;
+    font-size: 2rem;
+    padding: .5rem;
+
+}
+
+
+#menu-button::before{
+    content:"≡";
+    color: yellow;
+}
+
+#menu-button.open::before{
+    content: "X";
+    color: yellow;
+}
+
+
+nav ul {
+    list-style: none;
+    padding-inline-start: 0px;
+    margin: 0;
+    text-align: center;
+    display: none;
+  }
+  
+  nav ul.open{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+  }
+  
+  #content nav {
+    background-color: var(--header-color);
+    border-radius: 15px;
+    /* This is for the first strip, Home, site plan etc.) */
+  }
+  
+  nav ul li {
+    text-align: center;
+    margin: 20px;
+    color: white;
+  }
+  
+  nav ul li a {
+    color: #FDCA40;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  main h2 {
+    text-align: center;
+    background-color:#f6bc1d;
+    color: black;
+    border-radius: 15px;
+    padding: 7.5px;
+    font-weight: 800;
+    text-align: justify;
+  }
+  
+  main h3 {
+    text-align:center;
+    background-color: #f6bc1d;
+    color: black; 
+    border-radius: 15px;
+    padding: 7.5px;
+    font-weight: 500;
+    text-align: justify;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: var(--header-color);
+    color: #6B6570;
+    border-radius: 15px;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  
+ 
+  
