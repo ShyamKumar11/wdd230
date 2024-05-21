@@ -28,12 +28,9 @@ ul {
 }
 
 p {
-  counter-increment: paras;
+  color: white;
 }
 
-p::before {
- content: '🔸' counter(paras) ': ';
-}
   
   header h1 {
     text-align: center;
@@ -41,66 +38,14 @@ p::before {
 
   }
 
-  #menu-button{
-    background-color: black;
-    font-size: 2rem;
-    padding: .5rem;
 
-}
-
-
-#menu-button::before{
-    content:"≡";
-    color: yellow;
-}
-
-#menu-button.open::before{
-    content: "X";
-    color: yellow;
-}
-
-
-nav ul {
-    list-style: none;
-    padding-inline-start: 0px;
-    margin: 0;
-    text-align: center;
-    display: none;
-  }
-  
-  nav ul.open{
-      display: flex;
-      flex-direction: column;
-      justify-content: space-around;
-  }
-  
-  #content nav {
-    background-color: var(--header-color);
-    border-radius: 15px;
-    /* This is for the first strip, Home, site plan etc.) */
-  }
-  
-  nav ul li {
-    text-align: center;
-    margin: 20px;
-    color: white;
-  }
-  
-  nav ul li a {
-    color:#FDCA40;
-    text-decoration: none;
-    padding: 10px;
-    font-weight: 700;
-    font-size: 20px;
-  }
-  
   main {
     padding: 20px;
   }
   
   main h2 {
     text-align: center;
-    background-color: yellow ;
+    background-color:var(--accent-color) ;
     color: black;
     border-radius: 15px;
     padding: 7.5px;
@@ -108,15 +53,6 @@ nav ul {
     text-align: justify;
   }
   
-  main h3 {
-    text-align:center;
-    background-color: #f6bc1d;
-    color: black; 
-    border-radius: 15px;
-    padding: 7.5px;
-    font-weight: 500;
-    text-align: justify;
-  }
   
   footer {
     text-align: center;
@@ -127,6 +63,25 @@ nav ul {
     font-weight: 500;
     font-size: 16px;
   }
+
+  .background_color{
+    background-color:var(--background-color);
+    color: white;
+    border: 2px solid white;
+  }
   
+  .header_color{
+    background-color:var(--header-color);
+    color:white;
+  }
+
+  .accent_color{
+    background-color: var(--accent-color);
+    color: black;
+  }
  
-  
+  li{
+    color: white;
+
+
+  }
