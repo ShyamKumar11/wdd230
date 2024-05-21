@@ -27,7 +27,13 @@ ul {
     list-style: none;
 }
 
+p {
+  counter-increment: paras;
+}
 
+p::before {
+ content: '🔸' counter(paras) ': ';
+}
   
   header h1 {
     text-align: center;
