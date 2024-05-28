@@ -51,13 +51,23 @@ justify-content:space-around ;
 
 header img {
   height: 150px;
-  margin: 20px;
+  margin: 20px;  
 }
 
 header h1 {
   text-align: right;
   margin-top: 10px;
 }
+
+.hero_image {
+  border-top: 2px solid var(--accent-color);
+  border-bottom: 2px solid var(--accent-color);
+  overflow: hidden;
+  align-items: center;
+  max-height: 800px;
+  padding: 10px;
+}
+
 
 #menu-button{
     background-color: inherit;
