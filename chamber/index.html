@@ -13,7 +13,9 @@
     <link rel="stylesheet" href="./styles/base.css">
     <link rel="stylesheet" href="./styles/medium.css">
     <link rel="stylesheet" href="./styles/larger.css">
+    <link rel="icon" type="./images/favicon.ico" href="favicon.ico">
     <script src="./scripts/header_footer.js" defer></script>
+    <script src="./scripts/windchill.js" defer></script>
 
 </head>
 
@@ -56,10 +58,12 @@
             <h2> Current Events </h2>
 
             <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt, rerum! Maiores, accusamus! A quam,
-                officia placeat quidem atque ullam tenetur excepturi ipsa adipisci corrupti odit perspiciatis
-                exercitationem cum quae aliquid error? Soluta quasi possimus fuga consequatur impedit, autem dolore eos
-                alias maxime accusamus nemo aperiam omnis saepe. Hic, recusandae voluptatum.
+                Welcome to the Events section of The Batman City - Chamber of Commerce! Here, you’ll find a dynamic
+                array of activities designed to foster community engagement, stimulate business growth, and celebrate
+                the unique spirit of our city. From networking mixers and educational workshops to grand openings and
+                community celebrations, our events provide invaluable opportunities for local businesses and residents
+                to connect, collaborate, and thrive. Explore our upcoming events and join us in making Batman City a
+                vibrant and prosperous place to live and work.
 
 
             </p>
@@ -70,13 +74,21 @@
 
             <h2> Weather </h2>
 
-            <p> Find more information here. </p>
+            <div class="weather-card">
+                <img class="weather_img" src="images/weather.WebP">
+                <p>Current Condition: <span id="current-conditions">Partly Cloudy</span></p>
+                <p>Current Temp: <span id="temperature">80</span>&deg;F</p>
+                <p>Current Wind: <span id="windspeed">25</span> MPH</p>
+                <p>Windchill: <span id="windchill"></span></p>
+            </div>
 
+        </section>
 
 
         </section>
         <section class="spotlight">
 
+            <p> Find more information here. </p>
 
             <section class="Spotlight1">
 

@@ -30,7 +30,7 @@ darkbutton.addEventListener("click", () => {
   } else {
     // light mode colors
     document.documentElement.style.setProperty("--text-color", "black");
-    document.documentElement.style.setProperty("--card-color", "#A3B18A");
+    document.documentElement.style.setProperty("--card-color", "White");
     document.documentElement.style.setProperty("--header-color", "#588157");
     document.documentElement.style.setProperty("--background-color", "white");
   }
