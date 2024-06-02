@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/x-icon" href="./images/shyamheadshot-.ico">
     <title>Shyam Kumar - WDD 230 - Web Frontend Development</title>
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/hamburger.js" defer></script>
@@ -22,67 +22,105 @@
 <body>
     <div id="content">
         <header>
-            <img src="./images/shyamheadshot-.jpeg" alt="Shyam Kumar Headshot">
+            <img src="./images/shyamheadshot-200.WebP" alt="Shyam Kumar Headshot">
             <h1>Shyam Kumar</h1>
 
         </header>
         <button id="menu-button">Menu Button</button>
 
-        <section class="hero"><img class="hero_image" src="./images/1bern-switzerland-temple-lds-.WebP"
+        <!-- <section class="hero"><img class="hero_image" src="./images/1bern-switzerland-temple-lds-.WebP"
                 alt="Bern Temple- Header image ">
 
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="chamber/index.html">Chamber</a></li>
-                    <li><a href="lesson03/chamber-site-plan.html">Site Plan</a></li>
-                    <li><a href="https://www.byui.edu">BYU-Idaho</a></li>
-                    <li><a
-                            href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7">Scripture</a>
-                    </li>
+            <picture>
+                <source media="(max-width: 800px)" srcset="./image/">
+                <source media="(min-width: 465px)" srcset="img_car.jpg">
+                <img src="img_girl.jpg">
+            </picture> -->
+
+        <section class="hero">
+
+            <!-- Overlay div for the temple label -->
+            <div class="overlay">Columbia South Carolina Temple
+
+            </div>
+
+
+            <picture>
+
+                <!-- Image for screens smaller than 600px -->
+
+                <source srcset="./images/brigham-city-small400px.WebP" type="image/webp" media="(max-width: 400px)">
+
+                <!-- Image for screens between 601px and 1200px -->
+                <source srcset="./images/bern-switzerland-medium600.webp" type="image/webp" media="(max-width: 1200px)">
+
+                <!-- Image for screens larger than 1200px -->
+                <source srcset="./images/columbia-temple-large750.WebP" type="image/webp" media="(min-width: 1201px)">
+
+                <!-- Fallback image -->
+                <img class="hero_image" src="./images/bern-switzerland-temple-lds-.webp"
+                    alt="Bern Temple- Header image">
+
+
+
+
+            </picture>
+
+        </section>
+
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="chamber/index.html">Chamber</a></li>
+                <li><a href="lesson03/chamber-site-plan.html">Site Plan</a></li>
+                <li><a href="https://www.byui.edu">BYU-Idaho</a></li>
+                <li><a
+                        href="https://www.churchofjesuschrist.org/study/scriptures/bofm/1-ne/3?lang=eng&id=p7#p7">Scripture</a>
+                </li>
 
 
 
 
 
 
-                </ul>
+            </ul>
 
 
-            </nav>
-            <main>
-                <h2>WDD 230: Web Frontend Development I</h2>
-                <hr>
-                <!--This is a horizontal rule-->
-                <div id="cards">
-                    <section class="card">
-                        <h3>Learning Activites</h3>
-                        <ul id="learning-activites">
-                            <li>Week 1: <a href="#">Lesson 1</a></li>
-                            <li>Week 2: <a href="./lesson02/design-principles.html">Lesson 2</a></li>
-                            <li>Week 5: <a href="./lesson05/bom.html">BOM Top 10</a></li>
-                        </ul>
-                    </section>
-                    <section class="card">
-                        <h3>Information</h3>
-                        <p>Weather Information: Placeholder</p>
-                        <p>Visits to the page: Placeholder</p>
-                    </section>
-                </div>
-            </main>
-            <footer>
+        </nav>
+        <main>
+            <h2>WDD 230: Web Frontend Development I</h2>
+            <hr>
+            <!--This is a horizontal rule-->
+            <div id="cards">
+                <section class="card">
+                    <h3>Learning Activites</h3>
+                    <ul id="learning-activites">
+                        <li>Week 1: <a href="#">Lesson 1</a></li>
+                        <li>Week 2: <a href="./lesson02/design-principles.html">Lesson 2</a></li>
+                        <li>Week 5: <a href="./lesson05/bom.html">BOM Top 10</a></li>
+                    </ul>
+                </section>
+                <section class="card">
+                    <h3>Information</h3>
+                    <p>Weather Information: Placeholder</p>
+                    <p>Visits to the page: Placeholder</p>
+                </section>
+            </div>
+        </main>
+        <footer>
 
-                <h3>Directions</h3>
+            <h3>Directions</h3>
 
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50375.859142181995!2d41.09053726039158!3d37.895580053554966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x400b46fc6e630ad3%3A0x8fba52e2fe61162e!2sBatman%2C%20Batman%20Merkez%2FBatman%2C%20T%C3%BCrkiye!5e0!3m2!1sen!2sus!4v1715365111605!5m2!1sen!2sus"
-                    width="600" height="250" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50375.859142181995!2d41.09053726039158!3d37.895580053554966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x400b46fc6e630ad3%3A0x8fba52e2fe61162e!2sBatman%2C%20Batman%20Merkez%2FBatman%2C%20T%C3%BCrkiye!5e0!3m2!1sen!2sus!4v1715365111605!5m2!1sen!2sus"
+                width="600" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-                <p>&copy;<span id="currentYear"></span> - Shyam Kumar - Idaho, USA</p>
-                <p id="lastModified"></p>
+            <p>&copy;<span id="currentYear"></span> - Shyam Kumar - Idaho, USA</p>
+            <p id="lastModified"></p>
 
-            </footer>
+        </footer>
     </div>
 
 </body>

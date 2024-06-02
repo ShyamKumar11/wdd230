@@ -81,6 +81,30 @@ nav ul li a {
     max-height: 400px;
 }
 
+
+
+.hero {
+  position: relative;
+}
+
+.hero img.hero_image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: var(--card-color);
+  color: white;
+  padding: 5px 10px;
+  font-size: 15px;
+  white-space: nowrap; /* Prevent text wrapping */
+  z-index: 10; /* Ensure the overlay is on top of the image */
+
+
 .hero button{
     position: absolute;
     top: 50px;
@@ -122,6 +146,8 @@ background-color: hsl(208, 72%, 72%);
 main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    max-width: 960px;
+    
   }
  
   
@@ -175,3 +201,5 @@ main {
   width:50%;
 
 }
+
+
