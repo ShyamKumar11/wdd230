@@ -94,23 +94,13 @@ nav ul li a {
 /* Label for small screens */
 @media (max-width: 400px) {
   .responsive-image::after {
-      content: 'small';
+      content: 'Small';
   }
 }
 
-/* Label for medium screens */
-@media (min-width: 401px) and (max-width: 1200px) {
-  .responsive-image::after {
-      content: 'medium';
-  }
-}
 
-/* Label for large screens */
-@media (min-width: 1201px) {
-  .responsive-image::after {
-      content: 'large';
-  }
-}
+
+
 
 
 

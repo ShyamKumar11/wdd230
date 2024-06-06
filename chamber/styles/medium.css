@@ -17,3 +17,10 @@ nav ul.open{
     flex-direction: row;
 }
 }
+
+/* Label for medium screens */
+@media (min-width: 401px) and (max-width: 1200px) {
+    .responsive-image::after {
+        content: 'Medium';
+    }
+  }

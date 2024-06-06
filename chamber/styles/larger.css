@@ -11,5 +11,10 @@
 }
 
 
-
+/* Label for large screens */
+@media (min-width: 1201px) {
+    .responsive-image::after {
+        content: 'Large';
+    }
+  }
 
