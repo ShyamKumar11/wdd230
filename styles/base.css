@@ -42,9 +42,9 @@ ul {
 header {
 
 display: flex;
-flex-direction: row;
+flex-direction:row;
 align-items: center;
-justify-content:space-around ;
+justify-content:center ;
 
 }
 
@@ -57,15 +57,21 @@ header img {
 header h1 {
   text-align: right;
   margin-top: 10px;
+  margin-left: 10px;
 }
 
 .hero_image {
   border-top: 2px solid var(--accent-color);
   border-bottom: 2px solid var(--accent-color);
-  overflow: hidden;
-  align-items: center;
-  max-height: 800px;
+  /* overflow: hidden;
+  align-items: center; */
+  /* max-height: 800px; */
   padding: 10px;
+}
+
+.hero {
+  margin: auto;
+  width: 100%;
 }
 
 /* .hero img.hero_image {
@@ -76,9 +82,9 @@ header h1 {
 
 .overlay {
   position: absolute;
-  top: 10px;
-  left: 10px;
-  background-color: var(--card-color);
+  top: 230px;
+  left: 375px;
+  background-color: var(--background-color);
   color: black;
   padding: 5px 10px;
   font-size: 15px;

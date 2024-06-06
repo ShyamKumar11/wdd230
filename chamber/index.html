@@ -7,30 +7,69 @@
     <meta name="description" content="Chamber of Commerce Website for Batman City">
     <meta name="og:image" content=" https://shyamkumar11.github.io/wdd230/images/shyamheadshot-.jpeg">
     <meta name="og:type" content="Website">
+    <meta name="og:title" content="Batman City - Chamber of Commerce">
+    <meta name="og:url" content="https://shyamkumar11.github.io/wdd230/chamber/index.html">
     <meta name="author" content="Shyam Kumar">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="icon" type="./image/chamber.png" href="favicon.ico">
     <link rel="stylesheet" href="./styles/base.css">
     <link rel="stylesheet" href="./styles/medium.css">
     <link rel="stylesheet" href="./styles/larger.css">
-    <link rel="icon" type="./images/favicon.ico" href="favicon.ico">
+    <link rel="icon" href="./images/favicon.ico">
     <script src="./scripts/header_footer.js" defer></script>
     <script src="./scripts/windchill.js" defer></script>
+    <title> The Batman City - Chamber of Commerce</title>
+
 
 </head>
+
 
 <body>
 
     <header>
 
-        <title>The Batman City - Chamber of Commerce</title>
+        <h1>The Batman City - Chamber of Commerce</h1>
 
 
 
-        <section class="hero"><img class="hero_image" src="./images/bird.WebP" alt="Hero logo- Header image ">
+        <section class="hero">
+
+            <!-- Overlay div for the temple label -->
+
+
+            <picture class="responsive-image">
+
+                <!-- Image for screens smaller than 600px -->
+
+                <source srcset="./images/wdd230_small.WebP" type="image/webp" media="(max-width: 400px)">
+
+
+                <!-- Image for screens between 601px and 1200px -->
+                <source srcset="./images/wdd230_Medium.WebP" type="image/webp" media="(max-width: 1200px)">
+
+
+                <!-- Image for screens larger than 1200px -->
+                <source srcset="./images/wdd230large-org.WebP" type="image/webp" media="(min-width: 1201px)">
+
+                <!-- Fallback image -->
+                <img class="hero_image" src="./images/wdd230-org.jpg" alt="WDD230">
+
+
+
+            </picture>
+
+            <!-- <div class="overlay">Columbia South Carolina Temple
+
+            </div> -->
+
+
+        </section>
+
+
+
+        <!-- <section class="hero"><img class="hero_image" src="./images/bird.WebP" alt="Hero logo- Header image ">
             <button id="join-button">Click here to Join</button>
             <button id="dark-mode"></button>
-        </section>
+        </section> -->
 
         <!-- alt +shift + down arrow to copy down  -->
 
@@ -38,6 +77,7 @@
 
 
     <button id="menu-button">Menu Button</button>
+
     <nav>
         <ul>
             <li><a href="#">Home</a></li>
@@ -75,7 +115,7 @@
             <h2> Weather </h2>
 
             <div class="weather-card">
-                <img class="weather_img" src="images/weather.WebP">
+                <img class="weather_img" src="images/weather.WebP" alt="Weather Image">
                 <p>Current Condition: <span id="current-conditions">Partly Cloudy</span></p>
                 <p>Current Temp: <span id="temperature">80</span>&deg;F</p>
                 <p>Current Wind: <span id="windspeed">25</span> MPH</p>
@@ -84,8 +124,6 @@
 
         </section>
 
-
-        </section>
         <section class="spotlight">
 
             <p> Find more information here. </p>
