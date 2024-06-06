@@ -195,3 +195,11 @@ footer {
   accent-color: var(--accent-color);
   text-align: center;
 }
+
+
+/* Discover style */
+
+.discover-images img:hover{
+
+opacity: 0.5;
+}
