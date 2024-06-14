@@ -8,6 +8,10 @@
         justify-content: space-around;
     }
 
+    .responsive-image::after {
+        content: 'Medium';
+    }
+
 
 #menu-button{
     display: none;
@@ -18,9 +22,3 @@ nav ul.open{
 }
 }
 
-/* Label for medium screens */
-@media (min-width: 401px) and (max-width: 1200px) {
-    .responsive-image::after {
-        content: 'Medium';
-    }
-  }
