@@ -292,8 +292,17 @@ footer p {
 
 }
 
+.images img {
+  width: 50%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
 .images figure{
 
+  margin-bottom: 10px;
+  
 
 }
 
