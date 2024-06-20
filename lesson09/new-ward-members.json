@@ -1,0 +1,16 @@
+
+
+{
+    "familyName" : "Lohat", 
+    "moveInDate" : "2024-06-01",
+    "numberofRecords" : 8, 
+    "vistied" : true, 
+    "familyData" : [
+        {"name":"Shyam", 
+        "gender":"M",
+         "birthdate":"1991-11-03"},
+         {"name":"Mary Alice",
+        "gender": "F",
+    "birthdate": "1991-11-03"}
+    ]
+}

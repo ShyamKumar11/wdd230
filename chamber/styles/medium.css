@@ -1,6 +1,6 @@
 
 
-@media screen and (min-width:640px) {
+@media screen and (min-width:800px) {
 
     nav ul{
         display: flex;
@@ -20,5 +20,14 @@
 nav ul.open{
     flex-direction: row;
 }
+
+#mainform{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    }
+
+
 }
+
 

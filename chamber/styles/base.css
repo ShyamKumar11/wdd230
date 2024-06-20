@@ -8,12 +8,10 @@ body {
 
 :root {
     --background-color: white;
-    --header-color: #345A40;
+    --header-color: #72b4c6;
     --accent-color: #ef6351;
     --text-color: black;
     --card-color: #588157;
-    
-
   }
 
 
@@ -76,37 +74,6 @@ nav ul li a {
 }
 
 
-/* Wrapper to position relative */
-.responsive-image {
-  position: relative;
-  display: inline-block;
-}
-
-
-.responsive-image::after {
-  content: '';
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
-  padding: 5px 10px;
-  background: hsla(46, 91%, 45%, 0.5);
-  color: rgb(254, 255, 255);
-  font-size: 1.5em;
-  border-radius: 5px;
-}
-
-
-/* Label for small screens */
-@media (max-width: 400px) {
-  .responsive-image::after {
-      content: 'Small';
-  }
-}
-
-
-
-
-
 
 
 
@@ -140,9 +107,6 @@ nav ul li a {
 }
 
 
-main {
-display: block;
-}
 
 ul {
     list-style: none;
@@ -254,17 +218,31 @@ background-color: hsl(208, 72%, 72%);
  
 }
 
-.hero_image {
-  width: 100%;
-  height: auto;
+
+
+
+/* .hero_image:hover {
+  transform: scale(1.05);
+  opacity: 0.8;
+  border: 5px solid rgba(255, 255, 255, 0.8); White border with opacity */
+
+
+.images {
+  position: relative;
+  display: inline-block;
 }
 
+.images img:hover {
+  padding:7px;
+  background: rgb(0, 0, 0);
+  font-size: 2.5em;
+  border-radius: 8px;}
 
 footer {
 
   text-align: center;
   padding: 20px;
-  background-color: #ef6351;
+  background-color: #72b4c6;
 
 }
 
@@ -282,6 +260,7 @@ footer p {
 .images {
   
   display: block;
+ 
 }
 
 .images .lazy{
@@ -292,11 +271,13 @@ footer p {
 
 }
 
+
 .images img {
   width: 50%;
   height: auto;
   display: block;
   border-radius: 8px;
+  
 }
 
 .images figure{
@@ -342,6 +323,21 @@ figcaption {
 
 .discover{
   display: block;
+}
+
+
+/* Join Form */
+
+#mainform{
+  display: block;
+  /* grid-template-columns: 1fr 1fr; */
+}
+
+.mainform1 form label {
+
+display: block;
+  padding: 5px;
+
 }
 
 
