@@ -33,6 +33,13 @@ body {
     color: var(--text-color);
 }
 
+
+header {
+  text-align: center;
+}
+
+
+
 nav ul {
   list-style: none;
   padding-inline-start: 0px;
@@ -66,14 +73,6 @@ nav ul li a {
   font-weight: 700;
   font-size: 20px;
 }
-
-.hero_image{
-    height:100%;
-    width:auto;
-
-}
-
-
 
 
 
@@ -252,9 +251,6 @@ footer p {
 }
 
 /* Grid Container */
-
-
-
 
 
 .images {
