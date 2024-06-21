@@ -321,15 +321,17 @@ figcaption {
 
 #mainform {
 
- width:1000%;
-  overflow: hidden;
+ width:260%;
+  /* overflow: hidden; */
   display:block;
-  max-width: 1000px;
-  margin: 0.5em;
-  border: 3px solid black;
-  padding: 25px;
-  border-radius: 8px;
-  justify-items: center;
+  margin: 0.3em;
+  /* border: 10px solid black;
+  padding: 10px;
+  border-radius: 8px; */
+  /* justify-items:center; */
+  padding: 15%;
+  align-self:center ;
+
  
 
 
