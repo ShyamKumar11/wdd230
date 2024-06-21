@@ -311,11 +311,6 @@ figcaption {
   text-align: center;
 }
 
-/* .images .weather_img{
-  display: block;
-  width: 50%;
- 
-} */
 
 .discover{
   display: block;
@@ -358,9 +353,6 @@ align-items: center;
 justify-content:left ;
 padding: 10px;
 background-color: #8d8a8f;
-
-
-
 
 } */
 
@@ -442,7 +434,7 @@ button:hover {
 }
 
 
-* Clearfix */
+/* Clearfix */
 .clearfix::after {
     content: "";
     clear: both;
@@ -461,15 +453,3 @@ input:valid {
 
 
 
-/* 
-.mainform1 form label {
-
-  display: block;
-    padding: 15px;
-    text-align: justify; */
-    
-    /* .benefits {
-
-      margin-right: 0;
-        
-      } */
