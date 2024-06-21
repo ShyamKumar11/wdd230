@@ -57,7 +57,7 @@
         <div id="mainform">
 
             <section class="mainform1">
-                <h2>Join Our Organization</h2>
+                <h2 class="h2heading"> Join Our Organization</h2>
                 <form method="get" action="thankyou.html">
                     <!-- Applicant's First Name -->
                     <label for="firstName">First Name:
@@ -91,14 +91,19 @@
                     </label>
 
                     <!-- Membership Level Selection -->
-                    <label for="membership">Membership Level:
-                        <select id="membership" name="membership" required>
-                            <option value="NP">NP Membership (Non-Profit, No Fee)</option>
-                            <option value="Bronze">Bronze Membership</option>
-                            <option value="Silver">Silver Membership</option>
-                            <option value="Gold">Gold Membership</option>
-                        </select>
-                    </label>
+
+                    <fieldset>
+                        <legend>Membership Level:</legend>
+
+                        <label for="membership">Membership Level:
+                            <select id="membership" name="membership" required>
+                                <option value="NP">NP Membership (Non-Profit, No Fee)</option>
+                                <option value="Bronze">Bronze Membership</option>
+                                <option value="Silver">Silver Membership</option>
+                                <option value="Gold">Gold Membership</option>
+                            </select>
+                        </label>
+                    </fieldset>
 
                     <!-- Business/Organization's Description -->
                     <label for="description">Organization Description:
@@ -115,7 +120,7 @@
 
             <!-- Membership Level Benefits Section -->
             <section class="benefits">
-                <h3>Membership Benefits</h3>
+                <h3 class="h3heading">Membership Benefits:</h3>
                 <ul>
                     <li><strong>NP Membership:</strong> Access to networking events, newsletters.</li>
                     <li><strong>Bronze Membership:</strong> Includes NP benefits plus basic training sessions.</li>
