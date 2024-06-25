@@ -348,20 +348,10 @@ figcaption {
  
 }
 
-/* 
-header {
 
-align-items: center;
-justify-content:left ;
-padding: 10px;
-background-color: #8d8a8f;
-
-} */
 
 .mainform1 {
-  /* width: 100%;
-  float: left; */
-  background-color: #ff7f7f; /* Adjusted background color */
+  background-color: #7eacb9; /* Adjusted background color */
   padding: 20px;
   box-sizing: border-box;
   border: 5px solid #000;
@@ -373,7 +363,7 @@ background-color: #8d8a8f;
   width: 100%;
   float: left;
   margin-left: 5%;
-  background-color: #ff7f7f; /* Adjusted background color */
+  background-color: #7eacb9; /* Adjusted background color */
   padding: 20px;
   box-sizing: border-box;
   border: 5px solid #000;
