@@ -17,7 +17,9 @@
     <link rel="icon" href="./images/favicon.ico">
     <script src="./scripts/header_footer.js" defer></script>
     <script src="./scripts/windchill.js" defer></script>
-    <title> The Batman City - Chamber of Commerce</title>
+    <script src="./scripts/card_list.js" defer></script>
+
+    < <title> The Batman City - Chamber of Commerce</title>
 
 
 </head>
@@ -30,39 +32,12 @@
         <h1>The Batman City - Chamber of Commerce</h1>
 
 
-
-        <section class="hero">
-
-            <!-- Overlay div for the temple label -->
-
-
-            <picture class="responsive-image">
-
-                <!-- Image for screens smaller than 600px -->
-
-                <source srcset="./images/wdd230_small.webp" type="image/webp" media="(max-width: 400px)">
-
-
-                <!-- Image for screens between 601px and 1200px -->
-                <source srcset="./images/wdd230_medium.webp" type="image/webp" media="(max-width: 1200px)">
-
-
-                <!-- Image for screens larger than 1200px -->
-                <source srcset="./images/wdd230large-org.webp" type="image/webp" media="(min-width: 1201px)">
-
-                <!-- Fallback image -->
-                <img class="hero_image" src="./images/wdd230_medium.webp" alt="WDD230">
-
-
-
-            </picture>
-
-            <!-- <div class="overlay">Columbia South Carolina Temple
+        <!-- <div class="overlay">Columbia South Carolina Temple
 
             </div> -->
 
-            <button id="join-button">Click here to Join</button>
-            <button id="dark-mode"></button>
+        <button id="join-button">Click here to Join</button>
+        <button id="dark-mode"></button>
 
         </section>
 
@@ -96,65 +71,18 @@
 
     <main>
 
-        <section class="currentevents">
-            <h2> Current Events </h2>
-
-            <p>
-                Welcome to the Events section of The Batman City - Chamber of Commerce! Here, you’ll find a dynamic
-                array of activities designed to foster community engagement, stimulate business growth, and celebrate
-                the unique spirit of our city. From networking mixers and educational workshops to grand openings and
-                community celebrations, our events provide invaluable opportunities for local businesses and residents
-                to connect, collaborate, and thrive. Explore our upcoming events and join us in making Batman City a
-                vibrant and prosperous place to live and work.
-
-
-            </p>
-
-
-        </section>
-        <section class="weather">
-
-            <h2> Weather </h2>
-
-            <div class="weather-card">
-                <img class="weather_img" src="images/weather.WebP" alt="Weather Image">
-                <p>Current Condition: <span id="current-conditions">Partly Cloudy</span></p>
-                <p>Current Temp: <span id="temperature">80</span>&deg;F</p>
-                <p>Current Wind: <span id="windspeed">25</span> MPH</p>
-                <p>Windchill: <span id="windchill"></span></p>
-            </div>
-
-        </section>
-
-        <section class="spotlight">
-
-            <p> Find more information here. </p>
-
-            <section class="Spotlight1">
-
-                <h2> Spotlight1 </h2>
-
-                This month
+        <button id="Toggle">Toggle</button>
+        <div id="card">
+            <section>
 
             </section>
 
-            <section class="spotlight2">
 
-                <h2> Spotlight2 </h2>
+        </div>
 
-                This month
 
-            </section>
 
-            <section class="spotlight3">
 
-                <h2> Spotlight3 </h2>
-
-                This month
-
-            </section>
-
-        </section>
 
     </main>
 
