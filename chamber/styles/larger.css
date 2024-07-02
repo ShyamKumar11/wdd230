@@ -2,7 +2,7 @@
 
 @media screen and (min-width:1050px) {
 
-    main {
+  .chamber-home {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         /* max-width: 960px; */

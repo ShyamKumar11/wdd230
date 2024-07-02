@@ -4,89 +4,65 @@
     "members" : [
         {
 
-            "name": "Member 1", 
-            "address1":"123 Main Street", 
-            "address2": "Teton, ID 83451",
+            "name": "Member", 
+            "address":"123 Main Street Teton, ID 83451", 
             "phone":"208-231-4640",
             "websiteURL": "https://teton.org",
-            "imageURL" : "./images/directory/1.jpg", 
+            "imageURL" : "./images/directory.jpg", 
             "membership": "gold"
 
         },
-
-
         {
 
-            "name": "Member 2", 
-            "address1":"123 Main Street", 
-            "address2": "Teton, ID 83451",
+            "name": "Member", 
+            "address":"123 Main Street Teton, ID 83451", 
             "phone":"208-231-4640",
             "websiteURL": "https://teton.org",
-            "imageURL" : "./images/directory/1.jpg", 
+            "imageURL" : "./images/directory.jpg", 
             "membership": "gold"
 
         },
-
         {
 
-            "name": "Member 2", 
-            "address1":"123 Main Street", 
-            "address2": "Teton, ID 83451",
+            "name": "Member", 
+            "address":"123 Main Street Teton, ID 83451", 
             "phone":"208-231-4640",
             "websiteURL": "https://teton.org",
-            "imageURL" : "./images/directory/1.jpg", 
+            "imageURL" : "./images/directory.jpg", 
             "membership": "gold"
 
         },
-
         {
 
-            "name": "Member 2", 
-            "address1":"123 Main Street", 
-            "address2": "Teton, ID 83451",
+            "name": "Member", 
+            "address":"123 Main Street Teton, ID 83451", 
             "phone":"208-231-4640",
             "websiteURL": "https://teton.org",
-            "imageURL" : "./images/directory/1.jpg", 
+            "imageURL" : "./images/directory.jpg", 
             "membership": "gold"
 
         },
-
         {
 
-            "name": "Member 2", 
-            "address1":"123 Main Street", 
-            "address2": "Teton, ID 83451",
+            "name": "Member", 
+            "address":"123 Main Street Teton, ID 83451", 
             "phone":"208-231-4640",
             "websiteURL": "https://teton.org",
-            "imageURL" : "./images/directory/1.jpg", 
-            "membership": "gold"
-
-        },
-
-
-        {
-
-            "name": "Member 2", 
-            "address1":"123 Main Street", 
-            "address2": "Teton, ID 83451",
-            "phone":"208-231-4640",
-            "websiteURL": "https://teton.org",
-            "imageURL" : "./images/directory/1.jpg", 
+            "imageURL" : "./images/directory.jpg", 
             "membership": "gold"
 
         },
 
         {
 
-            "name": "Member 2", 
-            "address1":"123 Main Street", 
-            "address2": "Teton, ID 83451",
+            "name": "Member", 
+            "address":"123 Main Street Teton, ID 83451", 
             "phone":"208-231-4640",
             "websiteURL": "https://teton.org",
-            "imageURL" : "./images/directory/1.jpg", 
+            "imageURL" : "./images/directory.jpg", 
             "membership": "gold"
 
         }
-
     ]
 }
+    

@@ -1,4 +1,8 @@
 
+
+const WEATHER_URL =
+  "https://api.openweathermap.org/data/2.5/weather?lat=38.035994&lon=40.7361372&appid=fb53aead9c3bf6fb710e2d6c2b4608cc&units=imperial";
+// select HTML elements in the document
 let tempSpan: HTMLElement = document.getElementById("temperature");
 let windchill: HTMLAnchorElement = document.getElementById("windspeed");
 let chillSpan: HTMLAnchorElement = document.getElementById("windchill");

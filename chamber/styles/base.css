@@ -11,7 +11,7 @@ body {
     --header-color: #72b4c6;
     --accent-color: #ef6351;
     --text-color: black;
-    --card-color: #588157;
+    --card-color: #9ba2b6;
   }
 
 
@@ -31,6 +31,17 @@ body {
 #menu-button.open::before{
     content: "X";
     color: var(--text-color);
+}
+
+#join-button {
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  background-color:rgb(171, 94, 189);
+  font-size: 1.25rem;
+  padding: .5rem;
+  border-radius: 8px;
+
 }
 
 
@@ -107,6 +118,7 @@ nav ul li a {
 
 
 
+
 ul {
     list-style: none;
   }
@@ -161,12 +173,30 @@ background-color: hsl(208, 72%, 72%);
 }
 
 .weather{
+  text-align: center;
+  margin: 20px 0;
+}
+
+.weather{
   background-color:var(--card-color);
   margin: 10px;
   padding:10px;
   border:10px solid var(--accent-color) ;
 
 } 
+
+/* .weather-card {
+  display:flex ;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.weather-card figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
 
 .spotlight{
   background-color:var(--card-color);
@@ -443,5 +473,72 @@ input:valid {
 }
 
 
+/* directory-page  */
 
 
+.directory-page {
+
+  background-color: #b2ced5;
+ 
+
+}
+
+/* #cards {
+
+  background-color: #b0bbdb;
+  text-align: center;
+
+
+
+} */
+
+
+
+
+.directory-grid section {
+
+  background-color: rgb(91, 234, 122);
+
+}
+
+
+.directory-list section {
+
+  background-color: rgb(148, 121, 193);
+
+
+}
+
+/* .cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+ 
+} */
+
+.directory-grid  {
+  display: grid;
+  grid-template-columns: repeat(auto-fit , minmax(350px, 1fr));
+}
+
+
+
+.directory-list section img {
+  display: none;
+}
+
+
+.directory-page {
+  background-color: #dadada;
+  border: 5px solid #000000;
+  border-radius: 10px;
+  margin: 1rem;
+  padding: 2rem;
+  text-align: center;
+  /* width: 100%; */
+}
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+  border-color: black;
+}

@@ -17,6 +17,8 @@
     <link rel="icon" href="./images/favicon.ico">
     <script src="./scripts/header_footer.js" defer></script>
     <script src="./scripts/windchill.js" defer></script>
+    <script src="./scripts/weather-chamber.js" defer></script>
+    <script src="./scripts/banner.js" defer></script>
     <title> The Batman City - Chamber of Commerce</title>
 
 
@@ -94,7 +96,10 @@
     </nav>
 
 
-    <main>
+    <main class="chamber-home">
+
+
+
 
         <section class="currentevents">
             <h2> Current Events </h2>
@@ -113,6 +118,10 @@
 
         </section>
         <section class="weather">
+            <div id="banner" class="banner">
+                <p>Join us for the chamber of commerce meet and greet on Wednesday at 7:00 p.m.</p>
+                <button id="close-banner">❌</button>
+            </div>
 
             <h2> Weather </h2>
 
@@ -128,29 +137,35 @@
 
         <section class="spotlight">
 
-            <p> Find more information here. </p>
+            <h2>Spotlights</h2>
 
             <section class="Spotlight1">
 
-                <h2> Spotlight1 </h2>
+                <h2> Discover Batman City's Business Hub </h2>
 
-                This month
+                <p>Explore the heart of economic activity in Batman City, where
+                    innovation meets opportunity. Whether you're a startup or an established business, find the
+                    resources and networking opportunities you need to thrive.</p>
 
             </section>
 
             <section class="spotlight2">
 
-                <h2> Spotlight2 </h2>
+                <h2>Connect with Local Entrepreneurs</h2>
 
-                This month
+                <p>Join a vibrant community of entrepreneurs and business leaders
+                    dedicated to growth and collaboration. From networking events to workshops, discover how our Chamber
+                    fosters connections that drive success.</p>
 
             </section>
 
             <section class="spotlight3">
 
-                <h2> Spotlight3 </h2>
+                <h2>Stay Informed with Industry Insights</h2>
 
-                This month
+                <p>Gain valuable insights into local trends, policies, and
+                    economic forecasts that impact your business. Our Chamber keeps you informed and equipped to make
+                    strategic decisions in a dynamic marketplace.</p>
 
             </section>
 
@@ -162,7 +177,7 @@
 
 
     <footer>
-        <img src="./images/heroimage.WebP" alt="footer logo" class="footer_logo">
+        <img src="./images/footer.webp" alt="footer logo" class="footer_logo">
         <p>
             Batman city - Chamber of Commerce
         </p>
