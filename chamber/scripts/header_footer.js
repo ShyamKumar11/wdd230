@@ -26,12 +26,12 @@ darkbutton.addEventListener("click", () => {
     document.documentElement.style.setProperty("--text-color", "white");
     document.documentElement.style.setProperty("--card-color", "#588157");
     document.documentElement.style.setProperty("--header-color", "#345A40");
-    document.documentElement.style.setProperty("--background-color", "#A5A40");
+    document.documentElement.style.setProperty("--background-color", "#797979");
   } else {
     // light mode colors
     document.documentElement.style.setProperty("--text-color", "black");
     document.documentElement.style.setProperty("--card-color", "White");
-    document.documentElement.style.setProperty("--header-color", "#588157");
+    document.documentElement.style.setProperty("--header-color", "#797979");
     document.documentElement.style.setProperty("--background-color", "white");
   }
 });
