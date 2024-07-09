@@ -4,8 +4,18 @@
     "members" : [
         {
 
-            "name": "Member", 
+            "name": "Shyam Kumar", 
             "address":"123 Main Street Teton, ID 83451", 
+            "phone":"208-231-4640",
+            "websiteURL": "https://teton.org",
+            "imageURL" : "./images/weather.WebP", 
+            "membership": "gold"
+
+        },
+        {
+
+            "name": "Oliver Lohat", 
+            "address":"150 E Main Street Rexburg, ID 83440", 
             "phone":"208-231-4640",
             "websiteURL": "https://teton.org",
             "imageURL" : "./images/directory.jpg", 
@@ -14,8 +24,8 @@
         },
         {
 
-            "name": "Member", 
-            "address":"123 Main Street Teton, ID 83451", 
+            "name": "Nancy D'cruz", 
+            "address":"550 2 S, ID 83401", 
             "phone":"208-231-4640",
             "websiteURL": "https://teton.org",
             "imageURL" : "./images/directory.jpg", 
@@ -24,8 +34,8 @@
         },
         {
 
-            "name": "Member", 
-            "address":"123 Main Street Teton, ID 83451", 
+            "name": "Radhika Dhanpal", 
+            "address":"326 Main Street IF, ID 83430", 
             "phone":"208-231-4640",
             "websiteURL": "https://teton.org",
             "imageURL" : "./images/directory.jpg", 
@@ -34,18 +44,8 @@
         },
         {
 
-            "name": "Member", 
-            "address":"123 Main Street Teton, ID 83451", 
-            "phone":"208-231-4640",
-            "websiteURL": "https://teton.org",
-            "imageURL" : "./images/directory.jpg", 
-            "membership": "gold"
-
-        },
-        {
-
-            "name": "Member", 
-            "address":"123 Main Street Teton, ID 83451", 
+            "name": "Rodrigo Ante", 
+            "address":"127 Cornell Avenue, Rexburg ID 83451", 
             "phone":"208-231-4640",
             "websiteURL": "https://teton.org",
             "imageURL" : "./images/directory.jpg", 
@@ -55,8 +55,8 @@
 
         {
 
-            "name": "Member", 
-            "address":"123 Main Street Teton, ID 83451", 
+            "name": "Miles Wright", 
+            "address":"1642 Indian Avenue , UT 83451", 
             "phone":"208-231-4640",
             "websiteURL": "https://teton.org",
             "imageURL" : "./images/directory.jpg", 
