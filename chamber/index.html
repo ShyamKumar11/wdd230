@@ -31,42 +31,47 @@
 
         <h1>The Batman City - Chamber of Commerce</h1>
 
+        <div id="images-responsive">
+
+            <section class="hero">
+
+                <h2>Responsive Images</h2>
+
+                <!-- Overlay div for the temple label -->
 
 
-        <section class="hero">
+                <picture class="responsive-image">
 
-            <!-- Overlay div for the temple label -->
+                    <!-- Image for screens smaller than 600px -->
 
-
-            <picture class="responsive-image">
-
-                <!-- Image for screens smaller than 600px -->
-
-                <source srcset="./images/wdd230_small.webp" type="image/webp" media="(max-width: 400px)">
+                    <source srcset="./images/shopping_small150.webp" type="image/webp" media="(max-width: 400px)">
 
 
-                <!-- Image for screens between 601px and 1200px -->
-                <source srcset="./images/wdd230_medium.webp" type="image/webp" media="(max-width: 1200px)">
+                    <!-- Image for screens between 601px and 1200px -->
+                    <source srcset="./images/Commercial200.webp" type="image/webp" media="(max-width: 1200px)">
 
 
-                <!-- Image for screens larger than 1200px -->
-                <source srcset="./images/chamber_banner.webp" type="image/webp" media="(min-width: 1201px)">
+                    <!-- Image for screens larger than 1200px -->
+                    <source srcset="./images/chamber_banner.webp" type="image/webp" media="(min-width: 1201px)">
 
-                <!-- Fallback image -->
-                <img class="hero_image" src="./images/wdd230_medium.webp" alt="WDD230">
+                    <!-- Fallback image -->
+                    <img class="hero_image" src="./images/wdd230_medium.webp" alt="WDD230">
 
 
 
-            </picture>
+                </picture>
 
-            <!-- <div class="overlay">Columbia South Carolina Temple
+
+
+                <!-- <div class="overlay">Columbia South Carolina Temple
 
             </div> -->
 
-            <button id="join-button">Click here to Join</button>
-            <button id="dark-mode"></button>
+                <button id="join-button">Click here to Join</button>
+                <button id="dark-mode"></button>
 
-        </section>
+            </section>
+        </div>
 
 
 
