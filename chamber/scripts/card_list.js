@@ -7,7 +7,7 @@ grid_btn.addEventListener("click", () => {
   if (!grid_btn.classList.contains("active")) {
     grid_btn.classList.add("active");
     list_btn.classList.remove("active");
-    cards.classList.add("direcotry-grid");
+    cards.classList.add("directory-grid");
     cards.classList.remove("directory-list");
   }
 });

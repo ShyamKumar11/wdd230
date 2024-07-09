@@ -247,6 +247,14 @@ background-color: hsl(208, 72%, 72%);
  
 }
 
+.discover {
+  padding:1px;
+  /* background: rgb(0, 0, 0); */
+  /* font-size: 2.5em; */
+ 
+  
+}
+
 
 
 
@@ -312,10 +320,10 @@ footer p {
 
 }
 
-.card {
+.card-demo {
   background-color: #f0f0f0;
   padding: 20px;
-  border: 1px solid #ddd;
+  border: 1px solid #111111;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
@@ -323,6 +331,27 @@ footer p {
  
 }
 
+.card-events {
+  background-color: #dccedc;
+  padding: 20px;
+  border: 1px solid #111111;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  text-align: center;
+ 
+}
+
+.card-attraction {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border: 1px solid #111111;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  text-align: center;
+ 
+}
 
 figure {  /* Keeping images and captions orgnized */
   margin: 0;
