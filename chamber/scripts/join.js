@@ -1,2 +1,4 @@
 const formdate = new Date();
-document.getElementById("join-time").value = formdate.getTime();
+document.getElementById("timestamp").value = formdate.getTime();
+
+console.log(formdate.getTime());

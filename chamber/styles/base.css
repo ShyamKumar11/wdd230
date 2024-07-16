@@ -546,6 +546,9 @@ input:valid {
 .directory-list section {
 
   background-color: rgb(148, 121, 193);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 
 
 }
