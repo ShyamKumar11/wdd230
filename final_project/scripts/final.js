@@ -8,7 +8,7 @@ menuButton.addEventListener("click", function () {
 
 // JavaScript for fetching weather data from OpenWeatherMap API
 const weatherAPIKey = "your_openweathermap_api_key";
-const weatherEndpoint = `https://api.openweathermap.org/data/2.5/weather?q=Salt Lake City,us&appid=${fb53aead9c3bf6fb710e2d6c2b4608cc}&units=metric`;
+const weatherEndpoint = `https://api.openweathermap.org/data/2.5/weather?lat=40.764530324632304&lon=-111.88685492288826&appid=fb53aead9c3bf6fb710e2d6c2b4608cc`;
 
 fetch(weatherEndpoint)
   .then((response) => response.json())
