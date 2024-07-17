@@ -1,7 +1,7 @@
-const url = "./expedition.json";
-const cards = document.querySelector("#cards");
+const featuredUrl = "./expedition.json";
+const featuredcards = document.querySelector("#featuredcards");
 
-const displayExpeditions = (expeditions) => {
+const featuredExpedtions = (expeditions) => {
   expeditions.forEach((expedition) => {
     let newsection = document.createElement("section");
     newsection.classList.add("card");
@@ -11,19 +11,20 @@ const displayExpeditions = (expeditions) => {
       <p><strong>Location:</strong> ${expedition.location}</p>
       <p><strong>Dates:</strong> ${expedition.start_date} to ${expedition.end_date}</p>
       <p>${expedition.about}</p>`;
-    cards.append(newsection);
+    featuredcards.append(newsection);
   });
 };
 
-async function getExpeditionData() {
-  const response = await fetch(url);
+async function getFeatured() {
+  const response = await fetch(featuredUrl);
 
   if (response.ok) {
     const data = await response.json();
-    displayExpeditions(data.expeditions);
+    const featuredones = data.expeditions.filter((x) => x.featured);
+    featuredExpedtions(featuredones);
   } else {
     console.log("This is not working.");
   }
 }
 
-getExpeditionData();
+getFeatured();

@@ -8,6 +8,7 @@
         "location": "Nepal",
         "start_date": "2024-08-01",
         "end_date": "2024-08-15",
+        "featured": true,
         "about": "Explore the majestic Himalayas, trek through beautiful landscapes, and experience the unique culture of Nepal."
       },
       {
@@ -16,6 +17,7 @@
         "location": "India",
         "start_date": "2024-09-10",
         "end_date": "2024-09-25",
+        "featured": false,
         "about": "Dive into the rich culture of India, visit historic sites, and participate in community-building projects."
       },
       {
@@ -24,6 +26,7 @@
         "location": "Kenya",
         "start_date": "2024-10-05",
         "end_date": "2024-10-20",
+        "featured": true,
         "about": "Join us for an unforgettable safari experience, witness the diverse wildlife, and engage in conservation efforts."
       },
       {
