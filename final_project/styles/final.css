@@ -1,3 +1,8 @@
+@media only screen and (max-width: 640px) {
+  nav ul {
+    display: none !important;
+    }
+}
 
 
 body {
@@ -262,11 +267,18 @@ body {
   /* max-width: 800px; */
 }
 
+#featured-cards {
 
+  display: flex;
+  flex-direction: row;
+
+
+
+}
 
 footer {
     text-align: center;
-    padding: 10px 0;
+    padding: 8px;
     background-color:#cf6ed7;
     color: Black;
     border-radius: 15px;
@@ -356,6 +368,41 @@ button:hover {
 .red {
     color: red;
 }
+
+
+
+/*record.html */
+
+#confirmationMessage {
+
+  background-color: #84a3e0;
+  font-size: large;
+  font-weight: 1000;
+  padding: 45px;
+  margin: 0.5em;
+  text-align: center;
+
+
+}
+
+/* Expedtion apply now button */
+
+.apply-now-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #007BFF;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.apply-now-button:hover {
+  background-color: #0056b3;
+}
+
 
 /* 
 .redstart{

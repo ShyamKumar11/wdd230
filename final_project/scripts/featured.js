@@ -1,7 +1,7 @@
 const featuredUrl = "./expedition.json";
 const featuredcards = document.querySelector("#featuredcards");
 
-const featuredExpedtions = (expeditions) => {
+const featuredexpeditions = (expeditions) => {
   expeditions.forEach((expedition) => {
     let newsection = document.createElement("section");
     newsection.classList.add("card");
@@ -21,7 +21,7 @@ async function getFeatured() {
   if (response.ok) {
     const data = await response.json();
     const featuredones = data.expeditions.filter((x) => x.featured);
-    featuredExpedtions(featuredones);
+    featuredexpeditions(featuredones);
   } else {
     console.log("This is not working.");
   }
