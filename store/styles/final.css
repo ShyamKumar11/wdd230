@@ -15,11 +15,11 @@ body {
 
 
   
-/* nav ul.open{
-      display: flex;
+nav ul.open{
+      display: flex !important;
       flex-direction: column;
       justify-content: space-around;
-  }  */
+  } 
 
   nav {
     background-color: #cf6ed7;
@@ -106,12 +106,17 @@ body {
 
   .hero-image {
     border-radius:none;
-    /* margin-left: 5.5em;
-    margin-right: 5.5em; */
-    /* margin: 2%; */
+    /* max-height: 400px; */
+    /* overflow: hidden; */
+    /* position: relative; */
+    text-align: center;
+    padding: 2px;
+    margin-left: 5.5em;
+    margin-right: 5.5em;
+    margin: 2%;
     width:2150px;
     height: 630px;
-    padding: 2px;
+    /* padding: 2px; */
 
     }
 
@@ -180,7 +185,6 @@ body {
     content: "X";
     color: black;
 }
-
 
 
 
@@ -403,6 +407,73 @@ button:hover {
   background-color: #0056b3;
 }
 
+
+
+/* About us page */
+
+#about-intro {
+
+  background-color: #86bee6;
+  padding: 10px;
+  border-radius: 8px;
+  justify-content: center; 
+  align-items: center;
+  text-align: center;
+  margin: 0.5rem;
+
+}
+
+#image-container {
+
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+padding: 1px;
+border-radius: 8px;
+justify-content: center; 
+align-items: center;
+text-align: center;
+margin: 0.5rem;
+
+
+
+}
+
+.images {
+width: px;
+padding: 1px;
+border-radius: 8px;
+justify-content: center; 
+align-items: center;
+text-align: center;
+margin: 0.5rem;
+
+
+
+
+}
+
+
+
+#map-direction {
+justify-content: center;
+align-items: center;
+text-align: center;
+margin: 0.5em;
+
+}
+
+.map {
+    padding: 8px;
+    background-color:#8cd1e8;
+    color: Black;
+    border-radius: 15px;
+    font-weight: 500;
+    font-size: 16px;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
 
 /* 
 .redstart{

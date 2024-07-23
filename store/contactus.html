@@ -4,16 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="WDD 230 - Web Frontend Development - Shyam Kumar - Final Project">
-    <meta name="author" content="Shyam Kumar">
-    <meta name="og:title" content="Home page for final project - WDD-230">
-    <meta name="og:type" content="Website">
     <link rel="stylesheet" href="./styles/final.css">
-    <link rel="script" href="./scripts/final.js">
-    <script src="./scripts/featured.js" defer></script>
-    <script src="./scripts/hamburger.js" defer></script>
     <link rel="icon" type="image/x-icon" href="./images/favicon-logo.ico">
-    <link rel="stylesheet" href="./styles/larger.css">
+    <link rel="script" href="./scripts/contactsus.js">
+
     <title>Life Spark Internationl</title>
 </head>
 
@@ -25,10 +19,8 @@
             <li><a href="./final_index.html">Home</a></li>
             <!-- <li><a href="./whatwedo.html">What we do</a></li> -->
             <li><a href="./expeditions.html">Expeditions</a></li>
-            <div class="logo-container>" <li class="logo>"><a href="./final_index.html"><img
-                        src="./images/final-logo-life-spark200(1).webp" alt="logo">
-                    <!-- <div class="website-name">Life Spark International</div> -->
-            </div></a></li>
+            <li class="logo>"><a href="index.html"><img src="./images/final-logo-life-spark200(1).webp" alt="logo"></a>
+            </li>
             <li><a href="./impact.html">About Us</a></li>
             <!-- <li><a href="./ourwhy.html">Our Why</a></li> -->
             <li><a href="./contactus.html">Contact Us</a></li>
@@ -40,45 +32,38 @@
 
     <div id="main-image">
         <header>
+            <img class="hero-image" src="./images/hero350crop.webp" alt="Hero Elephant">
 
-            <picture>
-                <!-- For smaller screens (max-width: 600px) -->
-                <source srcset="./images/hero350crop-small.webp" type="image/webp" media="(max-width: 600px)">
-                <source srcset="./images/hero350crop-small.jpg" type="image/jpeg" media="(max-width: 600px)">
-
-                <!-- Default image for larger screens -->
-                <img class="hero-image" src="./images/hero350crop.webp" alt="Hero Elephant">
-            </picture>
-
-
-            <h1>Life Spark International</h1>
+            <h1>CONTACT US</h1>
 
         </header>
 
-        <button id="menu-button">Menu</button>
-
-        <section class="hero">
-
-
+        <div class="overlay">
+            <a href="./expeditions.html"><button id="exp-button">Explore expeditions</button></a>
+        </div>
 
 
 
-            <div class="overlay">
-                <a href="./expeditions.html"><button id="exp-button">Explore expeditions</button></a>
+
+        <main>
+            <div id="form">
+                <form action="record.html" method="get">
+
+                    <label>Name:<sup class="red">*</sup>
+                        <input type="text" name="name" id="name" required>
+                    </label>
+
+                    <label>Email:<sup class="red">*</sup>
+                        <input type="email" name="email" id="email" required>
+                    </label>
+
+                    <label>Message:<sup class="red">*</sup>
+                        <input type="message" name="message" required></input>
+                    </label>
+
+                    <button type="submit">Send Message</button>
             </div>
 
-            <!-- Overlay div for the temple label -->
-
-
-
-        </section>
-
-        <main>
-
-
-
-            <div id="confirmationMessage" class="confirmation-message">
-                Thank you! We have received your message and will be in touch shortly.</div>
 
         </main>
         <footer>
@@ -89,6 +74,7 @@
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193365.14328063995!2d-112.08529547464468!3d40.77675072601196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87523d9488d131ed%3A0x5b53b7a0484d31ca!2sSalt%20Lake%20City%2C%20UT!5e0!3m2!1sen!2sus!4v1721167252218!5m2!1sen!2sus"
                 width="600" height="150" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
+
 
             <h3>Connect with Us</h3>
             <div class="social-icons">
