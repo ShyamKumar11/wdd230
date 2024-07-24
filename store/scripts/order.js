@@ -1,13 +1,34 @@
-window.onload = () => {
-  const urlParams = new URLSearchParams(window.location.search);
-  const tripId = urlParams.get("trip_id");
-  const title = urlParams.get("title");
-  const location = urlParams.get("location");
+const urlParams = new URLSearchParams(window.location.search);
+const tripId = urlParams.get("trip_id");
+document.getElementById("trip_id").value = tripId;
+const featuredUrl = "./expedition.json";
+const featuredcards = document.querySelector("#featuredcards");
 
-  // Pre-fill expedition details
-  document.getElementById("expedition-title").textContent = `Title: ${title}`;
-  document.getElementById(
-    "expedition-location"
-  ).textContent = `Location: ${location}`;
-  document.getElementById("trip_id").value = tripId;
+const featuredexpeditions = (expeditions) => {
+  expeditions.forEach((expedition) => {
+    let newsection = document.createElement("section");
+    newsection.classList.add("card");
+    newsection.innerHTML = `
+      <img src="${expedition.image}" alt="${expedition.title} image" loading="lazy" class="card-image">
+      <h2>${expedition.title}</h2>
+      <p><strong>Location:</strong> ${expedition.location}</p>
+      <p><strong>Dates:</strong> ${expedition.start_date} to ${expedition.end_date}</p>
+      <p>${expedition.about}</p>
+      <a href="expeditions.html" class="view-details-button">View Details</a>`;
+    featuredcards.append(newsection);
+  });
 };
+
+async function getFeatured() {
+  const response = await fetch(featuredUrl);
+
+  if (response.ok) {
+    const data = await response.json();
+    const featuredones = data.expeditions.filter((x) => x.trip_id == tripId);
+    featuredexpeditions(featuredones);
+  } else {
+    console.log("This is not working.");
+  }
+}
+
+getFeatured();

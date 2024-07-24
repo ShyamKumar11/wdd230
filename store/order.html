@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./styles/medium.css">
     <link rel="stylesheet" href="./styles/larger.css">
     <script src="./scripts/final.js" defer></script>
-    <script src="./scripts/featured.js" defer></script>
+    <script src="./scripts/order.js" defer></script>
     <script src="./scripts/hamburger.js" defer></script>
     <script src="./scripts/weather.js" defer></script>
     <script src="./scripts/footer.js" defer></script>
@@ -61,11 +61,12 @@
 
         <body>
             <main>
-                <section id="product-info">
-                    <h2>Expedition Information</h2>
-                    <p id="expedition-title"></p>
-                    <p id="expedition-location"></p>
-                </section>
+                <div id="featuredcards">
+
+                    <div id="explore-button-container"></div>
+
+                </div>
+
                 <section id="order-form">
                     <form action="thankyou.html" method="get">
                         <input type="hidden" name="trip_id" id="trip_id">
