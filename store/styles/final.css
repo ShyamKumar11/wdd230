@@ -131,24 +131,23 @@ nav ul li {
   z-index: 10; /* Ensure the overlay is on top of the image */
 }
 
-#exp-button{
-  background-color:rgb(195, 44, 44);
-  font-size: 15px;
-  font-weight: 700;
-  padding: .5rem;
-
+.button-link {
+  display: inline-block;
+  padding: 10px;
+  background-color: #e60c54; /* Button color */
+  color: white; /* Text color */
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 0.5em;
 }
 
-/* main {
-
-  text-align: center;
-  font-size: 18px;
-  font-weight:500;
-  padding:1%;
-
-} */
-
-
+.button-link:hover {
+  background-color: #0056b3; /* Hover color */
+}
 
  #menu-button{
     background-color:#cf6ed7;
@@ -254,7 +253,6 @@ nav ul li {
   flex-direction: row;
 
 }
-
 
 #weather-container {
   display: flex;
@@ -383,7 +381,7 @@ input, textarea {
 }
 
 button {
-    background-color: #34d0b6;
+    background-color: #e60c54;
     color: white;
     border: none;
     padding: 10px;
@@ -617,6 +615,27 @@ span {
   font-weight: bold; /* Make the data stand out */
   color: #007bff; /* Blue color for data fields */
   font-size: 1.1em; /* Slightly larger font size for data fields */
+}
+
+
+/* Thank you page: */
+
+
+.confirmation-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  justify-content: center;
+  width: fit-content;
+}
+
+a {
+  color: #5a67d8;
+  text-decoration: none;
 }
 
 
