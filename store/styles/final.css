@@ -1,4 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
+
+
+:root {
+  --background-color: #fdfffc;
+  --header-color: #cf6ed7;
+  --accent-color: ;
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -69,11 +77,6 @@ nav ul li {
     color: white;
   }
 
-
- 
-
-
-  
 
   /* Starting here */
 
@@ -259,6 +262,35 @@ nav ul li {
 
 }
 
+
+#weather-container {
+  display: flex;
+  justify-content: center; /* Centers the cards horizontally */
+  flex-wrap: wrap; /* Allows wrapping on smaller screens */
+  gap: 20px; /* Space between the cards */
+  margin: 20px auto; /* Center the container on the page */
+  max-width: 800px; /* Limit the container's width */
+}
+
+#current-weather, #forecast {
+  background-color: #86bee6; /* Light blue background for cards */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+  flex: 1;
+  min-width: 300px; /* Minimum width to prevent cards from getting too narrow */
+  box-sizing: border-box;
+  text-align: center; /* Center the text content */
+}
+
+#current-weather, #forecast {
+  width: 100%; /* Full width for each card on small screens */
+  max-width: none; /* Remove the max-width constraint */
+}
+
+
+
+
 footer {
     text-align: center;
     padding: 8px;
@@ -289,6 +321,34 @@ footer {
 
 .social-icons a img:hover {
     transform: scale(1.1); /* Optional: Scale up on hover */
+}
+
+
+/* Featured Expedtions */
+
+#featuredcards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.card {
+  background-color: #e0cccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  text-align: center;
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  padding: 16px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -386,6 +446,19 @@ button:hover {
   background-color: #0056b3;
 }
 
+h2 {
+  text-align: center;
+}
+
+#cards {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ margin: 0.8em;
+ box-shadow:0 2px 5px #007BFF;
+
+}
+
 
 
 /* About us page */
@@ -451,31 +524,15 @@ margin: 0.5em;
     align-items: center;
 }
 
-
-.weather_information, .forecast_container {
-  margin: 15px 0px;
-  display: grid !important;
-
-}
-.weather_information h3, .forecast_container h3 {
-  font-weight: bold;
-}
 /* Credit: Julian Sanchez 2024 */
-.center-div {
-  display: flex;
+/* .center-div { */
+  /* display: flex;
   flex-wrap: wrap;
   text-align: center;
   align-items: center;
   justify-content: center;
-}
+} */ 
 
-
-
-#weather-container {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
 
 
 /* 

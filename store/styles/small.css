@@ -1,0 +1,25 @@
+
+/* Media query for small screens */
+@media only screen and (max-width: 640px) {
+    #menu-button {
+        display: block; /* Show button on small screens */
+    }
+
+    nav ul {
+        display: none; /* Hide menu by default on small screens */
+        flex-direction: column;
+        width: 100%;
+    }
+
+    nav ul.open {
+        display: flex; /* Show menu when .open class is added */
+    }
+
+    nav ul li {
+        margin: 10px 0; /* Adjust margins for small screens */
+    }
+
+    .logo {
+        display:none;
+    }
+}  

@@ -16,6 +16,7 @@
     <script src="./scripts/featured.js" defer></script>
     <script src="./scripts/hamburger.js" defer></script>
     <script src="./scripts/weather.js" defer></script>
+    <script src="./scripts/footer.js" defer></script>
     <link rel="icon" type="image/x-icon" href="./images/favicon-logo.ico">
     <title>Life Spark Internationl</title>
 </head>
@@ -114,16 +115,20 @@
             </div>
 
 
+            <div id="weather-container">
+                <div id="current-weather">
+                    <h2>Weather Now</h2>
+                    <p>Current Temperature: <span id="current-temp"></span></p>
+                    <p><span id="current-humidity"></span></p>
+                    <img id="weather-icon" src="" alt="Weather Icon">
 
-            <div id="current-weather">
-                <p>Current Temperature: <span id="current-temp"></span></p>
-                <p><span id="current-humidity"></span></p>
-                <img id="weather-icon" src="" alt="Weather Icon">
-            </div>
+                    <div id="forecast">
+                        <h2 class="forecast-text">3-Day Forecast at 9:00 AM</h2>
+                        <!-- Forecast sections will be appended here -->
+                    </div>
+                </div>
 
-            <div id="forecast">
-                <h2>3-Day Forecast at 9:00 AM</h2>
-                <!-- Forecast sections will be appended here -->
+
             </div>
 
             <!-- 
@@ -153,15 +158,27 @@
 
             <h3>Connect with Us</h3>
             <div class="social-icons">
+                <a href="https://www.facebook.com/ForceForGood03/" target="_blank" title="Facebook"><img
+                        src="./images/twitter-2.webp" alt="Facebook"></a>
                 <a href="https://www.instagram.com/life_spark_international/" target="_blank" title="Instagram"><img
                         src="./images/insta50.webp" alt="Instagram"></a>
                 <a href="https://www.facebook.com/ForceForGood03/" target="_blank" title="Facebook"><img
                         src="./images/facebookfinal50.webp" alt="Facebook"></a>
 
+
             </div>
 
-            <p>&copy;<span id="currentYear"></span> - Life Spark International- Idaho, USA</p>
-            <p id="lastModified"></p>
+            <h3>Resources</h3>
+            <p><a href="https://openweathermap.org" target="_blank" title="OpenWeatherMap">OpenWeatherMap</a></p>
+
+            <h3>Contact Information</h3>
+            <p>Email: <a href="mailto:contact@lifesparkinternational.com">contact@lifesparkinternational.com</a></p>
+            <p>Phone: (123) 456-7890</p>
+            <p>Address: 123 Spark St, Salt Lake City, UT, 84101, USA</p>
+
+            <p>&copy; <span id="currentYear"></span> - Life Spark International - Idaho, USA</p>
+            <p>Last Modified: <span id="lastModified"></span></p>
+
 
         </footer>
     </div>
