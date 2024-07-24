@@ -10,7 +10,8 @@ const featuredexpeditions = (expeditions) => {
       <h2>${expedition.title}</h2>
       <p><strong>Location:</strong> ${expedition.location}</p>
       <p><strong>Dates:</strong> ${expedition.start_date} to ${expedition.end_date}</p>
-      <p>${expedition.about}</p>`;
+      <p>${expedition.about}</p>
+      <a href="expeditions.html" class="view-details-button">View Details</a>`;
     featuredcards.append(newsection);
   });
 };

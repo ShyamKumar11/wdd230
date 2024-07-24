@@ -9,6 +9,7 @@
         "start_date": "2024-08-01",
         "end_date": "2024-08-15",
         "featured": true,
+        "trip_id": "Nepal001",
         "about": "Explore the majestic Himalayas, trek through beautiful landscapes, and experience the unique culture of Nepal."
       },
       {
@@ -18,6 +19,7 @@
         "start_date": "2024-09-10",
         "end_date": "2024-09-25",
         "featured": false,
+        "trip_id": "India001",
         "about": "Dive into the rich culture of India, visit historic sites, and participate in community-building projects.",
         "apply_now_url": "https://www.example.com/apply"
       },
@@ -28,6 +30,7 @@
         "start_date": "2024-10-05",
         "end_date": "2024-10-20",
         "featured": true,
+        "trip_id": "Kenya001",
         "about": "Explore the majestic Kenya, trek through beautiful landscapes, and experience the unique culture of Kenya.",
         "apply_now_url": "https://www.example.com/apply"
       },
@@ -38,6 +41,7 @@
         "location": "Brazil",
         "start_date": "2024-11-15",
         "end_date": "2024-12-01",
+        "trip_id": "Brazil001",
         "about": "Explore the dense Amazon rainforest, learn about its incredible biodiversity, and support local communities.",
         "apply_now_url": "https://www.example.com/apply"
       },
@@ -47,6 +51,7 @@
         "location": "Greece",
         "start_date": "2024-07-20",
         "end_date": "2024-08-05",
+        "trip_id": "Sea001",
         "about": "Sail through the stunning Mediterranean Sea, visit ancient ruins, and enjoy the vibrant culture of Greece.",
         "apply_now_url": "https://www.example.com/apply"
       }
