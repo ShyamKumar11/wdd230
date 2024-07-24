@@ -4,10 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 230 - Web Frontend Development - Shyam Kumar - Final Project">
+    <meta name="author" content="Shyam Kumar">
+    <meta name="og:title" content="Home page for final project - WDD-230">
+    <meta name="og:type" content="Website">
     <link rel="stylesheet" href="./styles/final.css">
+    <link rel="script" href="./scripts/final.js">
+    <script src="./scripts/featured.js" defer></script>
+    <script src="./scripts/hamburger.js" defer></script>
+    <script src="./scripts/weather.js" defer></script>
+    <script src="./scripts/forecast.js" defer></script>
     <link rel="icon" type="image/x-icon" href="./images/favicon-logo.ico">
-    <link rel="script" href="./scripts/contactsus.js">
-
+    <link rel="stylesheet" href="./styles/larger.css">
+    <link rel="stylesheet" href="./styles/medium.css">
     <title>Life Spark Internationl</title>
 </head>
 
@@ -16,16 +25,23 @@
     <nav>
         <ul>
 
-            <li><a href="./final_index.html">Home</a></li>
+            <li><a href="index.html">Home</a></li>
             <!-- <li><a href="./whatwedo.html">What we do</a></li> -->
             <li><a href="./expeditions.html">Expeditions</a></li>
-            <li class="logo>"><a href="index.html"><img src="./images/final-logo-life-spark200(1).webp" alt="logo"></a>
+            <li class="logo"><a href="index.html"><img src="./images/final-logo-life-spark200(1).webp" alt="logo"></a>
             </li>
-            <li><a href="./impact.html">About Us</a></li>
+            <!-- <div class="logo-container>" <li class="logo>"><a href="index.html"><img
+                        src="./images/final-logo-life-spark200(1).webp" alt="logo"> -->
+            <!-- <div class="website-name">Life Spark International</div> -->
+            </div></a></li>
+            <li><a href="./aboutus.html">About Us</a></li>
             <!-- <li><a href="./ourwhy.html">Our Why</a></li> -->
             <li><a href="./contactus.html">Contact Us</a></li>
         </ul>
 
+
+
+        <button id="menu-button">Menu</button>
 
     </nav>
 
@@ -34,61 +50,71 @@
         <header>
             <img class="hero-image" src="./images/hero350crop.webp" alt="Hero Elephant">
 
-            <h1>CONTACT US</h1>
+            <h1>Expedtions</h1>
 
         </header>
+    </div>
+
+
+    <section class="hero">
 
         <div class="overlay">
             <a href="./expeditions.html"><button id="exp-button">Explore expeditions</button></a>
         </div>
 
+        <!-- Overlay div for the temple label -->
 
 
 
-        <main>
-            <div id="form">
-                <form action="record.html" method="get">
-
-                    <label>Name:<sup class="red">*</sup>
-                        <input type="text" name="name" id="name" required>
-                    </label>
-
-                    <label>Email:<sup class="red">*</sup>
-                        <input type="email" name="email" id="email" required>
-                    </label>
-
-                    <label>Message:<sup class="red">*</sup>
-                        <input type="message" name="message" required></input>
-                    </label>
-
-                    <button type="submit">Send Message</button>
-            </div>
+    </section>
 
 
-        </main>
-        <footer>
-
-            <h3>Directions</h3>
-
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193365.14328063995!2d-112.08529547464468!3d40.77675072601196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87523d9488d131ed%3A0x5b53b7a0484d31ca!2sSalt%20Lake%20City%2C%20UT!5e0!3m2!1sen!2sus!4v1721167252218!5m2!1sen!2sus"
-                width="600" height="150" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 
-            <h3>Connect with Us</h3>
-            <div class="social-icons">
-                <a href="https://www.instagram.com/life_spark_international/" target="_blank" title="Instagram"><img
-                        src="./images/insta50.webp" alt="Instagram"></a>
-                <a href="https://www.facebook.com/ForceForGood03/" target="_blank" title="Facebook"><img
-                        src="./images/facebookfinal50.webp" alt="Facebook"></a>
+    <main>
+        <div id="form">
+            <form action="record.html" method="get">
 
-            </div>
+                <label>Name:<sup class="red">*</sup>
+                    <input type="text" name="name" id="name" required>
+                </label>
 
-            <p>&copy;<span id="currentYear"></span> - Life Spark International- Idaho, USA</p>
-            <p id="lastModified"></p>
+                <label>Email:<sup class="red">*</sup>
+                    <input type="email" name="email" id="email" required>
+                </label>
 
-        </footer>
+                <label>Message:<sup class="red">*</sup>
+                    <input type="message" name="message" required></input>
+                </label>
+
+                <button type="submit">Send Message</button>
+        </div>
+
+
+    </main>
+    <footer>
+
+        <h3>Directions</h3>
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d193365.14328063995!2d-112.08529547464468!3d40.77675072601196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87523d9488d131ed%3A0x5b53b7a0484d31ca!2sSalt%20Lake%20City%2C%20UT!5e0!3m2!1sen!2sus!4v1721167252218!5m2!1sen!2sus"
+            width="600" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+        <h3>Connect with Us</h3>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/life_spark_international/" target="_blank" title="Instagram"><img
+                    src="./images/insta50.webp" alt="Instagram"></a>
+            <a href="https://www.facebook.com/ForceForGood03/" target="_blank" title="Facebook"><img
+                    src="./images/facebookfinal50.webp" alt="Facebook"></a>
+
+        </div>
+
+        <p>&copy;<span id="currentYear"></span> - Life Spark International- Idaho, USA</p>
+        <p id="lastModified"></p>
+
+    </footer>
     </div>
     <!-- <script src="scripts/links.js"></script> -->
 

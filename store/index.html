@@ -12,8 +12,11 @@
     <link rel="script" href="./scripts/final.js">
     <script src="./scripts/featured.js" defer></script>
     <script src="./scripts/hamburger.js" defer></script>
+    <script src="./scripts/weather.js" defer></script>
+    <script src="./scripts/forecast.js" defer></script>
     <link rel="icon" type="image/x-icon" href="./images/favicon-logo.ico">
     <link rel="stylesheet" href="./styles/larger.css">
+    <link rel="stylesheet" href="./styles/medium.css">
     <title>Life Spark Internationl</title>
 </head>
 
@@ -37,6 +40,9 @@
         </ul>
 
 
+
+        <button id="menu-button">Menu</button>
+
     </nav>
 
 
@@ -44,9 +50,10 @@
     <div id="main-image">
         <header>
 
-            <picture>
-                <img src="images/hero350crop.webp" alt="hero image">
-            </picture>
+            <div id="hero-main">
+                <img class="hero-image" src="images/hero350crop.webp" alt="hero image">
+
+            </div>
 
             <h1>Life Spark International</h1>
         </header>
@@ -64,7 +71,7 @@
 
         </section>
 
-        <button id="menu-button">Menu</button>
+
 
 
 
@@ -99,16 +106,26 @@
 
                 <div id="explore-button-container"></div>
 
-
-
-
-
-
-
             </div>
 
 
+            <section class="weather">
+                <h3>Information</h3>
+                <p><img id="weather-icon" alt="Weather_img" class="weather_img"></p>
+                <p>Weather description: <span id="temp-desc"></span></p>
 
+
+
+                <p>Weather Tempreture: <span id="current-temp"></span></p>
+
+
+            </section>
+
+            <section id="forecast">
+
+
+
+            </section>
 
 
 

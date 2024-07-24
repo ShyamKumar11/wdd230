@@ -4,8 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="WDD 230 - Web Frontend Development - Shyam Kumar - Final Project">
+    <meta name="author" content="Shyam Kumar">
+    <meta name="og:title" content="Home page for final project - WDD-230">
+    <meta name="og:type" content="Website">
     <link rel="stylesheet" href="./styles/final.css">
+    <link rel="script" href="./scripts/final.js">
+    <script src="./scripts/featured.js" defer></script>
+    <script src="./scripts/hamburger.js" defer></script>
+    <script src="./scripts/weather.js" defer></script>
+    <script src="./scripts/forecast.js" defer></script>
     <link rel="icon" type="image/x-icon" href="./images/favicon-logo.ico">
+    <link rel="stylesheet" href="./styles/larger.css">
+    <link rel="stylesheet" href="./styles/medium.css">
     <title>Life Spark Internationl</title>
 </head>
 
@@ -15,15 +26,22 @@
         <ul>
 
             <li><a href="index.html">Home</a></li>
-            <li><a href="./whatwedo.html">What we do</a></li>
-            <li><a href="./expeditions.html">expeditions</a></li>
-            <li class="logo>"><a href="index.html"><img src="./images/final-logo-life-spark200(1).webp" alt="logo"></a>
+            <!-- <li><a href="./whatwedo.html">What we do</a></li> -->
+            <li><a href="./expeditions.html">Expeditions</a></li>
+            <li class="logo"><a href="index.html"><img src="./images/final-logo-life-spark200(1).webp" alt="logo"></a>
             </li>
+            <!-- <div class="logo-container>" <li class="logo>"><a href="index.html"><img
+                        src="./images/final-logo-life-spark200(1).webp" alt="logo"> -->
+            <!-- <div class="website-name">Life Spark International</div> -->
+            </div></a></li>
             <li><a href="./aboutus.html">About Us</a></li>
-            <li><a href="./ourwhy.html">Our Why</a></li>
+            <!-- <li><a href="./ourwhy.html">Our Why</a></li> -->
             <li><a href="./contactus.html">Contact Us</a></li>
         </ul>
 
+
+
+        <button id="menu-button">Menu</button>
 
     </nav>
 
@@ -32,44 +50,58 @@
         <header>
             <img class="hero-image" src="./images/hero350crop.webp" alt="Hero Elephant">
 
-            <h1>WHAT WE DO</h1>
+            <h1>Expedtions</h1>
 
         </header>
+    </div>
+
+
+    <section class="hero">
+
+        <div class="overlay">
+            <a href="./expeditions.html"><button id="exp-button">Explore expeditions</button></a>
+        </div>
+
+        <!-- Overlay div for the temple label -->
+
+
+
+    </section>
 
 
 
 
-        <main>
+    <main>
 
 
-            <P> fIND MORE HERE</P>
+        <P> fIND MORE HERE</P>
 
 
 
 
-        </main>
-        <footer>
+    </main>
+    <footer>
 
-            <h3>Directions</h3>
+        <h3>Directions</h3>
 
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50375.859142181995!2d41.09053726039158!3d37.895580053554966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x400b46fc6e630ad3%3A0x8fba52e2fe61162e!2sBatman%2C%20Batman%20Merkez%2FBatman%2C%20T%C3%BCrkiye!5e0!3m2!1sen!2sus!4v1715365111605!5m2!1sen!2sus"
-                width="600" height="250" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50375.859142181995!2d41.09053726039158!3d37.895580053554966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x400b46fc6e630ad3%3A0x8fba52e2fe61162e!2sBatman%2C%20Batman%20Merkez%2FBatman%2C%20T%C3%BCrkiye!5e0!3m2!1sen!2sus!4v1715365111605!5m2!1sen!2sus"
+            width="600" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-            <h3>Connect with Us</h3>
-            <div class="social-icons">
-                <a href="https://www.instagram.com/life_spark_international/" target="_blank" title="Instagram"><img
-                        src="./images/insta50.webp" alt="Instagram"></a>
-                <a href="https://www.facebook.com/ForceForGood03/" target="_blank" title="Facebook"><img
-                        src="./images/facebookfinal50.webp" alt="Facebook"></a>
+        <h3>Connect with Us</h3>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/life_spark_international/" target="_blank" title="Instagram"><img
+                    src="./images/insta50.webp" alt="Instagram"></a>
+            <a href="https://www.facebook.com/ForceForGood03/" target="_blank" title="Facebook"><img
+                    src="./images/facebookfinal50.webp" alt="Facebook"></a>
 
-            </div>
+        </div>
 
-            <p>&copy;<span id="currentYear"></span> - Shyam Kumar - Idaho, USA</p>
-            <p id="lastModified"></p>
+        <p>&copy;<span id="currentYear"></span> - Shyam Kumar - Idaho, USA</p>
+        <p id="lastModified"></p>
 
-        </footer>
+    </footer>
     </div>
     <script src="scripts/links.js"></script>
 
