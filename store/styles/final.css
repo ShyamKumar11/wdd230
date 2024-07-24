@@ -582,6 +582,97 @@ margin: 0.5em;
 .red {
   color: red;
 }
+
+
+/* Thank you page styles */
+
+/* Styling for the order confirmation page */
+#confirmation-container {
+  background-color: #f9f9f9; /* Light background for the confirmation page */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+  max-width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+h2 {
+  color: #333; /* Darker color for the heading */
+  font-size: 2em; /* Larger font size for the heading */
+  margin-bottom: 20px;
+}
+
+p {
+  color: #555; /* Slightly lighter color for paragraph text */
+  font-size: 1.2em; /* Slightly larger font size for readability */
+  margin: 10px 0;
+}
+
+span {
+  font-weight: bold; /* Make the data stand out */
+  color: #007bff; /* Blue color for data fields */
+  font-size: 1.1em; /* Slightly larger font size for data fields */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Credit: Julian Sanchez 2024 */
 /* .center-div { */
   /* display: flex;
