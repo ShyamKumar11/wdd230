@@ -18,4 +18,8 @@
     nav ul li {
         margin: 10px 0; /* Adjust margins for small screens */
     }
-}
+
+    .logo {
+        display:none;
+    }
+}  

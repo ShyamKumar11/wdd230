@@ -27,7 +27,9 @@ nav ul.open{
     
     }
 
-
+#menu-button {
+    display: none;
+}
 }
 
 
