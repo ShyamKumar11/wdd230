@@ -1,4 +1,4 @@
-@media screen and (min-width:640px) {
+@media screen and (min-width:1020px) {
 
     nav ul{
         display: flex;
@@ -11,15 +11,57 @@
     display: none;
 }
 
-nav ul.open{
+/* nav ul.open{
         flex-direction: row;
     }
-#menu-button {
-    display: none;
-}
 
         nav {
             height: 102px;
 
+        } */
+
+  ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+
+  nav ul li {
+    display:flex;
+    flex-direction: column;
+    margin: 0 15px;
+    vertical-align: middle;
+  
+  }
+
+  .menu-button {
+    display: none;
+}
+
+nav ul li.logo {
+    position: relative;
+    top:10px;  
+  }
+
+      
+  nav ul li img {
+    vertical-align:middle;  
+  
+    }
+
+    .logo{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         }
+    
+
+  
+  /* .menu-button {
+    display: grid;
+    grid-template-columns: auto 1fr;
+  } */
+     
 }

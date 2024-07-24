@@ -7,14 +7,27 @@ body {
     background-color: white;
 }
 
+#menu-button {
+  display: block; /* Show button on small screens */
+}
 
+nav ul {
+  display: none; /* Hide menu by default on small screens */
+  flex-direction: column;
+  width: 100%;
+}
 
-  
-nav ul.open{
-      display: flex !important;
-      flex-direction: column;
-      justify-content: space-around;
-  } 
+nav ul.open {
+  display: flex; /* Show menu when .open class is added */
+}
+
+nav ul li {
+  margin: 10px 0; /* Adjust margins for small screens */
+}
+
+.logo {
+  display:none;
+}
 
   nav {
     background-color: #cf6ed7;
@@ -35,21 +48,11 @@ nav ul.open{
     align-items: center;
   }
 
-  ul {
-    display: flex;
-    flex-direction: row;
-  }
-
   nav ul li {
-    display:flex;
-    flex-direction: column;
-    margin: 0 15px;
-    vertical-align: middle;
-    
-
+    list-style: none;
 
   }
-  
+
   nav ul li a {
     color: rgb(0, 0, 0);
     text-decoration:none;
@@ -61,54 +64,39 @@ nav ul.open{
 
   }
 
+
   nav ul li :hover {
     color: white;
   }
 
-  nav ul li img {
-  vertical-align:middle;  
+
+ 
+
+
+  
+
+  /* Starting here */
+
+  
+  .menu-button img {
+    display: block;
+    margin-left: auto;
+  }
+     
+  #hero-imageid {
+    max-height: 600px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 
   }
-
-  nav ul li.logo {
-    position: relative;
-    top:10px;  
-  }
-
-
-  .logo-container {
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-
-  }
-
-
-  .website-name {
-  font-size: 15px;
-  text-align: center;
-  font-size: 15px;
-  margin-top: 5px;
-
-}
-
 
   .hero-image {
-    border-radius:none;
-    /* max-height: 400px; */
-    /* overflow: hidden; */
-    /* position: relative; */
-    text-align: center;
-    padding: 2px;
-    margin-left: 5.5em;
-    margin-right: 5.5em;
-    margin: 2%;
-    width:2150px;
-    height: 630px;
-    /* padding: 2px; */
-
+    width: 100%;
+    height: auto;
+    
     }
 
 
@@ -417,24 +405,16 @@ button:hover {
 #image-container {
 
 display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 align-items: center;
-width: 100vw;}
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
 .images {
-width: px;
+max-width: 400px;
+
+
 padding: 1px;
 border-radius: 8px;
 justify-content: center; 
@@ -442,9 +422,10 @@ align-items: center;
 text-align: center;
 margin: 0.5rem;
 
+}
 
-
-
+.images picture img {
+  width: 100%;
 }
 
 
@@ -469,6 +450,33 @@ margin: 0.5em;
     justify-content: center;
     align-items: center;
 }
+
+
+.weather_information, .forecast_container {
+  margin: 15px 0px;
+  display: grid !important;
+
+}
+.weather_information h3, .forecast_container h3 {
+  font-weight: bold;
+}
+/* Credit: Julian Sanchez 2024 */
+.center-div {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+#weather-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 
 /* 
 .redstart{

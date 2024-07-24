@@ -8,22 +8,24 @@
     <meta name="author" content="Shyam Kumar">
     <meta name="og:title" content="Home page for final project - WDD-230">
     <meta name="og:type" content="Website">
-    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="./styles/final.css">
-    <link rel="stylesheet" href="./styles/small.css">
     <link rel="stylesheet" href="./styles/medium.css">
     <link rel="stylesheet" href="./styles/larger.css">
-    <script src="./scripts/final.js"></script>
+    <script src="./scripts/final.js" defer></script>
     <script src="./scripts/featured.js" defer></script>
     <script src="./scripts/hamburger.js" defer></script>
     <script src="./scripts/weather.js" defer></script>
-    <script src="./scripts/forecast.js" defer></script>
     <link rel="icon" type="image/x-icon" href="./images/favicon-logo.ico">
     <title>Life Spark Internationl</title>
 </head>
 
 <body>
-    <button id="menu-button">Menu</button>
+    <div class="menu-button">
+
+        <img src="./images/final-logo-life-spark200(1).webp" alt="logo">
+        <button id="menu-button">Menu</button>
+    </div>
 
     <nav>
         <ul>
@@ -33,9 +35,6 @@
             <li><a href="./expeditions.html">Expeditions</a></li>
             <li class="logo"><a href="index.html"><img src="./images/final-logo-life-spark200(1).webp" alt="logo"></a>
             </li>
-            <!-- <div class="logo-container>" <li class="logo>"><a href="index.html"><img
-                        src="./images/final-logo-life-spark200(1).webp" alt="logo"> -->
-            <!-- <div class="website-name">Life Spark International</div> -->
             </div></a></li>
             <li><a href="./aboutus.html">About Us</a></li>
             <!-- <li><a href="./ourwhy.html">Our Why</a></li> -->
@@ -50,9 +49,11 @@
     <div id="main-image">
         <header>
 
-            <picture>
-                <img src="images/hero350crop.webp" alt="hero image">
-            </picture>
+            <div id="hero-imageid">
+                <img class="hero-image" src="images/hero350crop.webp" alt="hero image">
+
+            </div>
+
 
             <h1>Life Spark International</h1>
         </header>
@@ -114,6 +115,28 @@
 
 
 
+            <div id="current-weather">
+                <p>Current Temperature: <span id="current-temp"></span></p>
+                <p><span id="current-humidity"></span></p>
+                <img id="weather-icon" src="" alt="Weather Icon">
+            </div>
+
+            <div id="forecast">
+                <h2>3-Day Forecast at 9:00 AM</h2>
+                <!-- Forecast sections will be appended here -->
+            </div>
+
+            <!-- 
+            <section class="weather_information center-div">
+                <h3>Information</h3>
+                <p><img id="weather-icon" src="weather-icon" alt="Weather_img" class="weather_img"></p>
+                <p>Weather Information: <span id="current-temp"></span></p>
+                <!-- <p>Visits to the page: <span id="home-visit"></span></p> -->
+            <!-- </section> -->
+
+            <!-- <div id="forecast_container">
+
+            </div> -->
 
 
 
