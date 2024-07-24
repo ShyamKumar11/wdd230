@@ -6,12 +6,23 @@ const displayExpeditions = (expeditions) => {
     let newsection = document.createElement("section");
     newsection.classList.add("card");
     newsection.innerHTML = `
-      <img src="${expedition.image}" alt="${expedition.title} image" loading="lazy" class="card-image">
+      <img src="${expedition.image}" alt="${
+      expedition.title
+    } image" loading="lazy" class="card-image">
       <h2>${expedition.title}</h2>
       <p><strong>Location:</strong> ${expedition.location}</p>
-      <p><strong>Dates:</strong> ${expedition.start_date} to ${expedition.end_date}</p>
+      <p><strong>Dates:</strong> ${expedition.start_date} to ${
+      expedition.end_date
+    }</p>
       <p>${expedition.about}</p>
-      <a href="${expedition.apply_now_url}" class="apply-now-button" target="_blank">Apply Now</a>`;
+      <a href="order.html?trip_id=${
+        expedition.trip_id
+      }&title=${encodeURIComponent(
+      expedition.title
+    )}&location=${encodeURIComponent(
+      expedition.location
+    )}" class="apply-now-button">Apply Now</a>`;
+
     cards.append(newsection);
   });
 };

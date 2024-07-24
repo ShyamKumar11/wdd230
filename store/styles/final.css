@@ -524,6 +524,64 @@ margin: 0.5em;
     align-items: center;
 }
 
+
+/* Expedtion order form style */
+/* #order-form-container {
+  background-color: rgb(175, 185, 186);
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  margin: 20px auto;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+} */
+
+#product-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#order-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#order-form label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-weight: bold;
+}
+
+#order-form input, #order-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+#order-form button {
+  background-color: #34d0b6;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#order-form button:hover {
+  background-color: #0056b3;
+}
+
+.red {
+  color: red;
+}
 /* Credit: Julian Sanchez 2024 */
 /* .center-div { */
   /* display: flex;
