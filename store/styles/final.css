@@ -109,9 +109,7 @@ nav ul li {
        align-items: center;
 
     }
-        /* object-fit: cover; */
-        /* justify-items: center; */
-        /* overflow: hidden; } */
+
        
 
    header h1 {
@@ -178,49 +176,52 @@ nav ul li {
 .mission-statement {
   text-align: center;
   font-size: 30px;
-  font-weight:500;
+  font-weight:100;
   background-color: #b6aeb6;
 }
 
 
 
-/* Common styles for all cards */
-#cards-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  padding:0.8em;
-  border-radius: 2%;
-  color: black;
-}
-
 #home-container {
-  background-color: #f4dcb5;
+  background-color: #8cd9cc;
   padding: 0.5px;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  flex: 1;
+  border-radius:5px;
   min-width: auto;
   justify-content: center;
   align-items: center;
   text-align: center;
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 /* Specific styles for card-1 */
+/* bens pic */
+.card-0 {
+  background-color: #ffffff;
+  font-size:20px;
+  padding:0.5em;
+  text-align: center;
+  font-weight: 500;
+  height: auto;
+}
+
+/* be part of the solution text */
 .card-1 {
-  background-color: #d2e3e5;
+  background-color: #e4e5d2;
   font-size:20px;
   padding:0.5em;
   text-align: center;
   font-weight: 500;
 }
 
-/* Specific styles for card-2 */
-/* .card-2 {
-  background-color: #da2558;
-} */
+/* radz pic */
+.card-2 {
+  background-color: #ffffff;
+  font-size:20px;
+  padding:0.5em;
+  text-align: center;
+  font-weight: 500;
+}
 
 /* Common styles for card images */
 .card-image {
@@ -247,12 +248,12 @@ nav ul li {
   /* max-width: 800px; */
 }
 
-#featured-cards {
+/* #featured-cards {
 
   display: flex;
   flex-direction: row;
 
-}
+} */
 
 #weather-container {
   display: flex;
@@ -452,13 +453,18 @@ gap: 10px;
 
 .card {
 
-  padding: 10px;
+  padding: 5px;
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  box-shadow:0 2px 5px #007BFF;
   max-width: 300px; 
   height: 600px; /* Fixed height for consistency */
   justify-content: space-between; 
+  justify-content: center;
   text-align: center;
+  margin: 2.5em;;
+  
+  
 }
 
 
@@ -484,6 +490,8 @@ gap: 10px;
 display: grid;
 grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 align-items: center;
+
+
 }
 
 
@@ -495,7 +503,10 @@ border-radius: 8px;
 justify-content: center; 
 align-items: center;
 text-align: center;
-margin: 0.5rem;
+margin: 2.9rem;
+
+
+
 
 }
 
@@ -526,20 +537,6 @@ margin: 0.5em;
     align-items: center;
 }
 
-
-/* Expedtion order form style */
-/* #order-form-container {
-  background-color: rgb(175, 185, 186);
-  padding: 10px;
-  border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  width: 90%;
-  margin: 20px auto;
-  max-width: 1200px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-} */
 
 #product-info {
   text-align: center;
@@ -588,16 +585,29 @@ margin: 0.5em;
 
 /* Thank you page styles */
 
-/* Styling for the order confirmation page */
-#confirmation-container {
-  background-color: #f9f9f9; /* Light background for the confirmation page */
+.confirmation-container {
+  max-width: 600px;
+  margin:  auto;
+  background-color: #fff;
   padding: 20px;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
-  max-width: 800px;
-  margin: 20px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   text-align: center;
+  justify-content: center;
+  width: fit-content;
+  color: #007BFF;
+  background-color: #eee7ad;
+  margin-bottom: 0.8em;
+  
 }
+
+a {
+  color: #5a67d8;
+  text-decoration: none;
+}
+
+
+
 
 h2 {
   color: #333; /* Darker color for the heading */
@@ -618,25 +628,9 @@ span {
 }
 
 
-/* Thank you page: */
 
 
-.confirmation-container {
-  max-width: 600px;
-  margin: 0 auto;
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  text-align: center;
-  justify-content: center;
-  width: fit-content;
-}
 
-a {
-  color: #5a67d8;
-  text-decoration: none;
-}
 
 
 
@@ -692,43 +686,3 @@ a {
 
 
 
-
-
-
-
-/* Credit: Julian Sanchez 2024 */
-/* .center-div { */
-  /* display: flex;
-  flex-wrap: wrap;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-} */ 
-
-
-
-/* 
-.redstart{
-  color: red;
-}
-
-label{
-  display: block;
-}
-
-input{
-  display: block;
-  margin-bottom:1rem;
-  font-size:1.2rem;
-  padding: 0.3rem;
-}
-
-button{
-  font-size: 1.5rem;
-  background-color:var(--header-color);
-  padding: 0.5rem;
-  border-radius: 3px;
-}
-
-
-   */
